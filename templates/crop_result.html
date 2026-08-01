@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prediction Result - FarmLink</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      :root {
+        --primary-color: #4caf50;
+        --primary-light: #80e27e;
+        --secondary-color: #8d6e63;
+        --accent-color: #ff9800;
+        --light-accent: #fff3e0;
+        --dark-color: #2c3e50;
+        --light-color: #f8f9fa;
+        --white: #ffffff;
+        --success: #2e7d32;
+        --gradient: linear-gradient(
+          135deg,
+          var(--primary-color),
+          var(--secondary-color)
+        );
+        --border-radius: 16px;
+        --transition: all 0.3s ease;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        background: #f0f4f8;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        color: #333;
+      }
+      .container {
+        /* Increased max-width so 5 boxes can fit horizontally */
+        max-width: 800px;
+        width: 100%;
+        background: var(--white);
+        border-radius: var(--border-radius);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+      .header {
+        background: var(--gradient);
+        color: var(--white);
+        padding: 2rem;
+        text-align: center;
+      }
+      .result-container {
+        padding: 2.5rem;
+        text-align: center;
+      }
+
+      /* Single Result Styles */
+      .result-icon {
+        font-size: 4rem;
+        color: var(--primary-color);
+        margin-bottom: 1.5rem;
+      }
+      .result-card {
+        background: var(--light-color);
+        border-radius: var(--border-radius);
+        padding: 2rem;
+        margin-bottom: 2rem;
+        text-align: left;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      }
+      .result-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      }
+      .result-item:last-child {
+        border-bottom: none;
+      }
+      .result-label {
+        font-weight: 500;
+        color: var(--dark-color);
+      }
+      .result-value {
+        font-weight: 600;
+        font-size: 1.2rem;
+      }
+      .crop-value {
+        color: var(--primary-color);
+      }
+      .price-value {
+        color: var(--accent-color);
+      }
+
+      /* =========================================
+         UPDATED: HORIZONTAL CROP BOXES
+         ========================================= */
+      .crop-grid {
+        display: flex;
+        flex-direction: row; /* Makes items go side-by-side */
+        flex-wrap: wrap; /* Allows them to wrap on smaller screens */
+        justify-content: center; /* Centers the boxes */
+        gap: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2.5rem;
+      }
+      .crop-box {
+        display: flex;
+        flex-direction: column; /* Stacks icon above text */
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+        padding: 1.5rem 1rem;
+        border-radius: 12px;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+        transition: var(--transition);
+        text-align: center;
+        flex: 1 1 calc(20% - 1rem); /* Fits up to 5 in a row perfectly */
+        min-width: 120px; /* Prevents them from getting too skinny */
+      }
+      .crop-box:hover {
+        transform: translateY(-5px);
+        border-color: var(--primary-color);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      }
+      .crop-icon-box {
+        background: var(--light-accent);
+        color: var(--accent-color);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%; /* Changed to a circle to look like a modern card */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8rem;
+        margin-bottom: 1rem; /* Space below the icon */
+        flex-shrink: 0;
+      }
+      .crop-details h4 {
+        margin: 0;
+        color: var(--dark-color);
+        font-size: 1.1rem;
+        font-weight: 600;
+        line-height: 1.2;
+      }
+      .crop-details .price-text {
+        margin: 0;
+        color: var(--success);
+        font-weight: 600;
+        font-size: 0.95rem;
+        margin-top: 0.5rem;
+      }
+
+      /* Buttons */
+      .btn-group {
+        display: flex;
+        gap: 1rem;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 0.75rem 1.5rem;
+        border-radius: var(--border-radius);
+        font-weight: 600;
+        text-decoration: none;
+        flex: 1;
+        color: white;
+      }
+      .btn-primary {
+        background: var(--gradient);
+      }
+      .btn-secondary {
+        background: var(--light-color);
+        color: #333;
+        border: 1px solid #e0e0e0;
+      }
+      .btn-primary:hover,
+      .btn-secondary:hover {
+        opacity: 0.9;
+        transform: translateY(-2px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1><i class="fas fa-chart-line"></i> Recommendation Result</h1>
+        <p>Your personalized crop insights</p>
+      </div>
+
+      <div class="result-container">
+        {% if is_state_only %}
+        <h3 style="color: var(--dark-color); margin-bottom: 5px">
+          Top Crops for {{ state }}
+        </h3>
+        <p style="font-size: 0.9rem; color: #666">
+          Based on historical regional market data
+        </p>
+
+        <div class="crop-grid">
+          {% for c in top_crops %}
+          <div class="crop-box">
+            <div class="crop-icon-box">
+              <i class="fas fa-leaf"></i>
+            </div>
+            <div class="crop-details">
+              <h4>{{ c.name }}</h4>
+              <p class="price-text">₹{{ c.price }} / kg</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+
+        {% else %}
+        <div class="result-icon">
+          <i class="fas fa-seedling"></i>
+        </div>
+        <div class="result-card">
+          <div class="result-item">
+            <span class="result-label">
+              <i class="fas fa-seedling"></i> Recommended Crop
+            </span>
+            <span class="result-value crop-value">{{ crop }}</span>
+          </div>
+
+          <div class="result-item">
+            <span class="result-label">
+              <i class="fas fa-rupee-sign"></i> Estimated Market Price
+            </span>
+            <span class="result-value price-value">₹{{ price }}</span>
+          </div>
+        </div>
+        {% endif %}
+
+        <div class="btn-group">
+          <a href="/crop_recommendation" class="btn btn-primary">
+            <i class="fas fa-redo"></i> Try Again
+          </a>
+          <a href="/" class="btn btn-secondary">
+            <i class="fas fa-home"></i> Home
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

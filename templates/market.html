@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Demand Forecast - FarmLink</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        :root {
+            --primary-color: #4caf50;
+            --primary-light: #80e27e;
+            --primary-dark: #087f23;
+            --secondary-color: #8d6e63;
+            --accent-color: #ff9800;
+            --light-accent: #ffecb3;
+            --dark-color: #2c3e50;
+            --light-color: #f8f9fa;
+            --text-color: #333;
+            --text-light: #6c757d;
+            --white: #ffffff;
+            --success: #4caf50;
+            --warning: #ff9800;
+            --gradient: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            --gradient-light: linear-gradient(135deg, rgba(76,175,80,0.1), rgba(141,110,99,0.1));
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            --shadow-hover: 0 15px 40px rgba(0, 0, 0, 0.15);
+            --border-radius: 16px;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--gradient-light), url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80") no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            color: var(--text-color);
+            position: relative;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.92);
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header {
+            text-align: center;
+            padding: 2rem 0;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .logo-icon {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-right: 1rem;
+            filter: drop-shadow(0 4px 8px rgba(76, 175, 80, 0.3));
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            font-weight: 400;
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .card {
+            border: none;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .card-header {
+            background: var(--gradient);
+            color: var(--white);
+            padding: 1.5rem;
+            border-bottom: none;
+        }
+
+        .card-body {
+            padding: 2rem;
+        }
+
+        .form-control {
+            border: 2px solid #e0e0e0;
+            border-radius: var(--border-radius);
+            padding: 0.75rem 1rem;
+            font-size: 1rem;
+            transition: var(--transition);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+        }
+
+        .btn {
+            border-radius: var(--border-radius);
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .btn-success {
+            background: var(--gradient);
+            border: none;
+        }
+
+        .btn-success:hover {
+            background: var(--white);
+            color: var(--primary-color);
+            border: 2px solid var(--primary-color);
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .forecast-results {
+            animation: slideUp 1s ease-in-out;
+        }
+
+        .forecast-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .forecast-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+        }
+
+        .forecast-list {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 2rem;
+        }
+
+        .forecast-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            background: var(--light-color);
+            border-radius: var(--border-radius);
+            margin-bottom: 0.75rem;
+            transition: var(--transition);
+        }
+
+        .forecast-item:hover {
+            background: var(--white);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transform: translateX(5px);
+        }
+
+        .month-label {
+            font-weight: 500;
+            color: var(--dark-color);
+        }
+
+        .demand-value {
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 1.1rem;
+        }
+
+        .graph-container {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            margin-bottom: 2rem;
+        }
+
+        .graph-title {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+            color: var(--dark-color);
+        }
+
+        .graph-title i {
+            color: var(--accent-color);
+        }
+
+        .img-fluid {
+            border-radius: var(--border-radius);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            margin-top: 1rem;
+        }
+
+        .back-link:hover {
+            color: var(--primary-dark);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .logo-icon { font-size: 2.5rem; }
+            .card-body { padding: 1.5rem; }
+            .forecast-header { flex-direction: column; text-align: center; }
+        }
+
+        @media (max-width: 480px) {
+            .container { padding: 1rem; }
+            h1 { font-size: 1.8rem; }
+            .forecast-item { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h1>Market Demand Forecast</h1>
+            </div>
+            <p class="tagline">Predict future market trends and demand for your crops to maximize profits and plan your harvest effectively.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header text-center">
+                <h3 class="mb-0"><i class="fas fa-search me-2"></i>Get Market Insights</h3>
+            </div>
+            <div class="card-body">
+                <form method="POST">
+                    <div class="mb-4">
+                        <label class="form-label fw-semibold">Region Name</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-light"><i class="fas fa-map-marker-alt text-primary"></i></span>
+                            <input type="text" name="region" class="form-control" placeholder="Enter Region (e.g., Tamil Nadu)" required>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <label class="form-label fw-semibold">Crop Name</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-light"><i class="fas fa-seedling text-primary"></i></span>
+                            <input type="text" name="crop" class="form-control" placeholder="Enter Crop (e.g., Rice)" required>
+                        </div>
+                    </div>
+                    <button class="btn btn-success w-100 py-2 fs-5">
+                        <i class="fas fa-chart-bar me-2"></i> Predict Market Demand
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        {% if forecast %}
+        <div class="forecast-results">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h3 class="mb-0"><i class="fas fa-chart-pie me-2"></i>Forecast Results</h3>
+                </div>
+                <div class="card-body">
+                    <div class="forecast-header">
+                        <div class="forecast-icon">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">{{ region }} - {{ crop }}</h4>
+                            <p class="text-muted mb-0">Market demand forecast for the next 6 months</p>
+                        </div>
+                    </div>
+
+                    <ul class="forecast-list">
+                        {% for val in forecast %}
+                        <li class="forecast-item">
+                            <span class="month-label">Month +{{ loop.index }}</span>
+                            <span class="demand-value">{{ val }} units</span>
+                        </li>
+                        {% endfor %}
+                    </ul>
+
+                    <div class="graph-container">
+                        <h5 class="graph-title">
+                            <i class="fas fa-chart-line"></i> Actual vs Predicted Demand
+                        </h5>
+                        <img src="data:image/png;base64,{{ graph1 }}" class="img-fluid w-100"/>
+                    </div>
+
+                    <div class="graph-container">
+                        <h5 class="graph-title">
+                            <i class="fas fa-project-diagram"></i> Next 6 Months Forecast
+                        </h5>
+                        <img src="data:image/png;base64,{{ graph2 }}" class="img-fluid w-100"/>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="/" class="back-link">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+        </div>
+        {% endif %}
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

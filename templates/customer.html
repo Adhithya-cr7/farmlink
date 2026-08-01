@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Farmer-Buyer Matching - FarmLink</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #4caf50;
+            --primary-light: #80e27e;
+            --primary-dark: #087f23;
+            --secondary-color: #8d6e63;
+            --accent-color: #ff9800;
+            --light-accent: #ffecb3;
+            --dark-color: #2c3e50;
+            --light-color: #f8f9fa;
+            --text-color: #333;
+            --text-light: #6c757d;
+            --white: #ffffff;
+            --success: #4caf50;
+            --warning: #ff9800;
+            --gradient: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            --gradient-light: linear-gradient(135deg, rgba(76,175,80,0.1), rgba(141,110,99,0.1));
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            --shadow-hover: 0 15px 40px rgba(0, 0, 0, 0.15);
+            --border-radius: 16px;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--gradient-light), url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80") no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            color: var(--text-color);
+            position: relative;
+            overflow-x: hidden;
+            line-height: 1.6;
+            padding: 2rem;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.92);
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            padding: 2rem 0;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .logo-icon {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-right: 1rem;
+            filter: drop-shadow(0 4px 8px rgba(76, 175, 80, 0.3));
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            font-weight: 400;
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .content-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        @media (max-width: 968px) {
+            .content-wrapper {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .card {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .card-header {
+            background: var(--gradient);
+            color: var(--white);
+            padding: 1.5rem;
+            border-bottom: none;
+        }
+
+        .card-body {
+            padding: 2rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: var(--dark-color);
+        }
+
+        .input-group {
+            position: relative;
+        }
+
+        input {
+            width: 100%;
+            padding: 0.75rem 1rem 0.75rem 3rem;
+            border: 2px solid #e0e0e0;
+            border-radius: var(--border-radius);
+            font-size: 1rem;
+            transition: var(--transition);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+        }
+
+        .input-icon {
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-light);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            background: var(--gradient);
+            color: var(--white);
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: var(--border-radius);
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            width: 100%;
+            margin-top: 0.5rem;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .results-section {
+            animation: slideUp 1s ease-in-out;
+        }
+
+        .results-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .results-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+        }
+
+        .table-container {
+            overflow-x: auto;
+            border-radius: var(--border-radius);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--white);
+        }
+
+        th {
+            background: var(--gradient);
+            color: var(--white);
+            padding: 1rem;
+            text-align: center;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+        }
+
+        td {
+            padding: 1rem;
+            text-align: center;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        tr {
+            transition: var(--transition);
+        }
+
+        tr:hover {
+            background: rgba(76, 175, 80, 0.05);
+        }
+
+        .match-score {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .score-high {
+            background: rgba(76, 175, 80, 0.2);
+            color: var(--primary-dark);
+        }
+
+        .score-medium {
+            background: rgba(255, 152, 0, 0.2);
+            color: var(--warning);
+        }
+
+        .score-low {
+            background: rgba(244, 67, 54, 0.2);
+            color: #f44336;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            margin-top: 2rem;
+        }
+
+        .back-link:hover {
+            color: var(--primary-dark);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            body { padding: 1rem; }
+            h1 { font-size: 2rem; }
+            .logo-icon { font-size: 2.5rem; }
+            .card-body { padding: 1.5rem; }
+            th, td { padding: 0.75rem 0.5rem; }
+        }
+
+        @media (max-width: 480px) {
+            h1 { font-size: 1.8rem; }
+            .results-header { flex-direction: column; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h1>Smart Farmer-Buyer Matching</h1>
+            </div>
+            <p class="tagline">Connect directly with farmers who have the crops you need at the best prices and locations.</p>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="mb-0"><i class="fas fa-search me-2"></i>Find Matching Farmers</h3>
+                </div>
+                <div class="card-body">
+                    <form method="POST" action="/customer_support">
+                        <div class="form-group">
+                            <label for="buyer_id">Buyer ID</label>
+                            <div class="input-group">
+                                <i class="fas fa-id-card input-icon"></i>
+                                <input type="text" id="buyer_id" name="buyer_id" placeholder="Enter your buyer ID" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="preferred_crop">Preferred Crop</label>
+                            <div class="input-group">
+                                <i class="fas fa-seedling input-icon"></i>
+                                <input type="text" id="preferred_crop" name="preferred_crop" placeholder="e.g., Rice, Wheat, Corn" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="quantity_needed">Quantity Needed (kg)</label>
+                            <div class="input-group">
+                                <i class="fas fa-weight input-icon"></i>
+                                <input type="number" id="quantity_needed" name="quantity_needed" step="0.1" placeholder="e.g., 100.5" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="max_price">Max Price per kg (₹)</label>
+                            <div class="input-group">
+                                <i class="fas fa-rupee-sign input-icon"></i>
+                                <input type="number" id="max_price" name="max_price" step="0.1" placeholder="e.g., 25.50" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="location">Location</label>
+                            <div class="input-group">
+                                <i class="fas fa-map-marker-alt input-icon"></i>
+                                <input type="text" id="location" name="location" placeholder="e.g., Tamil Nadu, Punjab" required>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn">
+                            <i class="fas fa-search me-2"></i> Find Matching Farmers
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            {% if results %}
+            <div class="results-section">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="mb-0"><i class="fas fa-list me-2"></i>Matching Results</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="results-header">
+                            <div class="results-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div>
+                                <h4 class="mb-1">Top Farmer Matches</h4>
+                                <p class="text-muted mb-0">Best matches for Buyer {{ buyer_id }}</p>
+                            </div>
+                        </div>
+
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Farmer ID</th>
+                                        <th>Crop</th>
+                                        <th>Quantity (kg)</th>
+                                        <th>Price (₹/kg)</th>
+                                        <th>Location</th>
+                                        <th>Match Score</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for r in results %}
+                                    <tr>
+                                        <td><strong>{{ r.Farmer_ID }}</strong></td>
+                                        <td>
+                                            <i class="fas fa-seedling me-1" style="color: var(--primary-color);"></i>
+                                            {{ r.Crop }}
+                                        </td>
+                                        <td>{{ r.Quantity }}</td>
+                                        <td>₹{{ r.Price }}</td>
+                                        <td>
+                                            <i class="fas fa-map-marker-alt me-1" style="color: #f44336;"></i>
+                                            {{ r.Location }}
+                                        </td>
+                                        <td>
+                                            {% set score = r.Score %}
+                                            <span class="match-score {% if score >= 80 %}score-high{% elif score >= 60 %}score-medium{% else %}score-low{% endif %}">
+                                                {{ score }}%
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+
+        <a href="/" class="back-link">
+            <i class="fas fa-arrow-left"></i> Back to Home
+        </a>
+    </div>
+</body>
+</html>

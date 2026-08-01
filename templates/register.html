@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmLink - Register</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #4caf50;
+            --primary-light: #80e27e;
+            --primary-dark: #087f23;
+            --secondary-color: #8d6e63;
+            --accent-color: #ff9800;
+            --light-accent: #ffecb3;
+            --dark-color: #2c3e50;
+            --light-color: #f8f9fa;
+            --text-color: #333;
+            --text-light: #6c757d;
+            --white: #ffffff;
+            --gradient: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            --gradient-light: linear-gradient(135deg, rgba(76,175,80,0.1), rgba(141,110,99,0.1));
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            --shadow-hover: 0 15px 40px rgba(0, 0, 0, 0.15);
+            --border-radius: 16px;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--gradient-light), url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80") no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.92);
+            z-index: -1;
+        }
+
+        /* Form Container */
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: var(--border-radius);
+            text-align: center;
+            box-shadow: var(--shadow);
+            width: 420px;
+            max-width: 90%;
+            border: 2px solid var(--primary-color);
+            position: relative;
+            animation: fadeIn 0.8s ease-in-out;
+        }
+
+        .home-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: var(--gradient);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            font-size: 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+            z-index: 10;
+        }
+
+        .home-btn:hover {
+            transform: scale(1.1);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .logo-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-right: 10px;
+        }
+
+        h2 {
+            margin: 10px 0 30px;
+            color: var(--dark-color);
+            font-size: 28px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        /* Form Fields */
+        .input-group {
+            position: relative;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        input {
+            width: 100%;
+            padding: 15px 20px 15px 50px;
+            border: 2px solid #e0e0e0;
+            border-radius: var(--border-radius);
+            outline: none;
+            font-size: 16px;
+            background-color: var(--light-color);
+            color: var(--text-color);
+            transition: var(--transition);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        input:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+            background-color: var(--white);
+        }
+
+        input::placeholder {
+            color: var(--text-light);
+        }
+
+        .input-icon {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--primary-color);
+            font-size: 18px;
+        }
+
+        /* Register Button */
+        button[type="submit"] {
+            width: 100%;
+            padding: 16px;
+            border: none;
+            background: var(--gradient);
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: var(--border-radius);
+            transition: var(--transition);
+            margin-top: 10px;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        button[type="submit"]:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        /* Flash Messages */
+        .alert {
+            padding: 12px 16px;
+            border-radius: var(--border-radius);
+            margin-bottom: 20px;
+            font-weight: 500;
+            text-align: left;
+            border-left: 4px solid;
+        }
+
+        .success {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+            border-left-color: #4caf50;
+        }
+
+        .error {
+            background-color: #ffebee;
+            color: #c62828;
+            border-left-color: #f44336;
+        }
+
+        /* Login Link */
+        .login-link {
+            margin-top: 25px;
+            color: var(--text-light);
+            font-size: 15px;
+        }
+
+        .login-link a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .login-link a:hover {
+            color: var(--primary-dark);
+        }
+
+        .login-link a::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: var(--primary-color);
+            transform: scaleX(0);
+            transition: transform 0.2s ease;
+        }
+
+        .login-link a:hover::after {
+            transform: scaleX(1);
+        }
+
+        /* Agricultural decorative elements */
+        .decoration {
+            position: absolute;
+            z-index: -1;
+            opacity: 0.7;
+        }
+
+        .leaf {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%234caf50" d="M17,8C8,10 5.9,16.17 3.82,21.34L5.71,22L6.66,19.7C7.14,19.87 7.64,20 8,20C19,20 22,3 22,3C21,5 14,5.25 9,6.25C4,7.25 2,11.5 2,13.5C2,15.5 3.75,17.25 3.75,17.25C7,8 17,8 17,8Z"/></svg>');
+            background-size: contain;
+        }
+
+        .seed {
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%238d6e63" d="M17.2,5C15.5,2.6 12.5,2 10.2,3.4C7.9,4.8 6.7,7.7 7.2,10.3C5.9,10.8 5,12.3 5,14C5,16.2 6.8,18 9,18C9.8,18 10.5,17.8 11.1,17.4C12.5,19.7 15.5,20.3 17.8,18.9C20.1,17.5 21.3,14.6 20.8,12C22.1,11.5 23,10 23,8.2C23,6 21.2,4.2 19,4.2C18.4,4.2 17.8,4.3 17.2,4.6V5M7.5,12C7.5,10.1 9.1,8.5 11,8.5C11.9,8.5 12.7,8.8 13.3,9.3L7.5,15.1C7.5,14.5 7.5,13.5 7.5,12M9,16.5C8.2,16.5 7.5,15.8 7.5,15C7.5,14.9 7.5,14.8 7.5,14.7L13.3,8.9C13.5,9 13.7,9.1 13.9,9.2C14.1,9.5 14.3,9.7 14.5,10C15.1,10.6 15.5,11.3 15.5,12.2C15.5,14.1 13.9,15.7 12,15.7C10.9,15.7 9.9,15.2 9.3,14.4C9,14.8 9,15.4 9,16.5Z"/></svg>');
+            background-size: contain;
+        }
+
+        .decoration:nth-child(1) {
+            top: -20px;
+            left: -20px;
+            transform: rotate(-15deg);
+        }
+
+        .decoration:nth-child(2) {
+            bottom: -15px;
+            right: -15px;
+            transform: rotate(25deg);
+        }
+
+        .decoration:nth-child(3) {
+            top: 50%;
+            left: -25px;
+            transform: rotate(45deg);
+        }
+
+        .decoration:nth-child(4) {
+            bottom: 30%;
+            right: -20px;
+            transform: rotate(-30deg);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 30px 25px;
+                width: 350px;
+            }
+            
+            h2 {
+                font-size: 24px;
+            }
+            
+            input {
+                padding: 12px 15px 12px 45px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="home-btn" onclick="window.location.href='/';">
+            <i class="fas fa-home"></i>
+        </button>
+        
+        <div class="decoration leaf"></div>
+        <div class="decoration leaf"></div>
+        <div class="decoration seed"></div>
+        <div class="decoration seed"></div>
+        
+        <div class="logo">
+            <div class="logo-icon">
+                <i class="fas fa-tractor"></i>
+            </div>
+        </div>
+        
+        <h2>Join FarmLink</h2>
+        
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% for category, message in messages %}
+                <div class="alert {{ category }}">{{ message }}</div>
+            {% endfor %}
+        {% endwith %}
+        
+        <form method="POST">
+            <div class="input-group">
+                <i class="fas fa-user input-icon"></i>
+                <input type="text" name="name" placeholder="Full Name" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-envelope input-icon"></i>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-phone input-icon"></i>
+                <input type="text" name="phone" placeholder="Phone Number" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock input-icon"></i>
+                <input type="password" name="password" placeholder="Password" required>
+            </div>
+            <button type="submit">
+                <i class="fas fa-user-plus"></i>
+                CREATE ACCOUNT
+            </button>
+        </form>
+        
+        <p class="login-link">Already have an account? <a href="/login">Login Now</a></p>
+    </div>
+</body>
+</html>

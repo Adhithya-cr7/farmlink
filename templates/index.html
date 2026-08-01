@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FarmLink - Agricultural Intelligence Platform</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      :root {
+        --primary-color: #4caf50;
+        --primary-light: #80e27e;
+        --primary-dark: #087f23;
+        --secondary-color: #8d6e63;
+        --accent-color: #ff9800;
+        --light-accent: #ffecb3;
+        --dark-color: #2c3e50;
+        --light-color: #f8f9fa;
+        --text-color: #333;
+        --text-light: #6c757d;
+        --white: #ffffff;
+        --success: #4caf50;
+        --warning: #ff9800;
+        --gradient: linear-gradient(
+          135deg,
+          var(--primary-color),
+          var(--secondary-color)
+        );
+        --gradient-light: linear-gradient(
+          135deg,
+          rgba(76, 175, 80, 0.1),
+          rgba(141, 110, 99, 0.1)
+        );
+        --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        --shadow-hover: 0 15px 40px rgba(0, 0, 0, 0.15);
+        --border-radius: 16px;
+        --transition: all 0.3s ease;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background:
+          var(--gradient-light),
+          url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80")
+            no-repeat center center fixed;
+        background-size: cover;
+        min-height: 100vh;
+        color: var(--text-color);
+        position: relative;
+        overflow-x: hidden;
+        line-height: 1.6;
+      }
+
+      body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.92);
+        z-index: -1;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      header {
+        text-align: center;
+        padding: 2rem 0 1rem;
+        animation: fadeIn 1.5s ease-in-out;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+      }
+
+      .logo-icon {
+        font-size: 3.5rem;
+        color: var(--primary-color);
+        margin-right: 1rem;
+        filter: drop-shadow(0 4px 8px rgba(76, 175, 80, 0.3));
+        animation: pulse 2s infinite;
+      }
+
+      h1 {
+        font-size: 2.8rem;
+        background: var(--gradient);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      }
+
+      .tagline {
+        font-size: 1.2rem;
+        color: var(--text-light);
+        font-weight: 400;
+        margin-bottom: 2rem;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+        margin: 2rem 0 3rem;
+      }
+
+      .feature-card {
+        background: var(--white);
+        border-radius: var(--border-radius);
+        padding: 1.5rem;
+        text-align: center;
+        box-shadow: var(--shadow);
+        transition: var(--transition);
+        border-top: 4px solid var(--primary-color);
+      }
+
+      .feature-card:hover {
+        transform: translateY(-10px);
+        box-shadow: var(--shadow-hover);
+      }
+
+      .feature-icon {
+        font-size: 2.5rem;
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+      }
+
+      .feature-card h3 {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+        color: var(--dark-color);
+      }
+
+      .feature-card p {
+        color: var(--text-light);
+        font-size: 0.95rem;
+      }
+
+      .btn-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1.5rem;
+        margin: 2rem 0;
+        animation: slideUp 1s ease-in-out;
+      }
+
+      .btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem 1rem;
+        background: var(--white);
+        color: var(--text-color);
+        text-decoration: none;
+        border-radius: var(--border-radius);
+        font-weight: 600;
+        font-size: 1.1rem;
+        transition: var(--transition);
+        box-shadow: var(--shadow);
+        border: 2px solid transparent;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .btn::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: var(--gradient);
+      }
+
+      .btn i {
+        font-size: 1.8rem;
+        margin-bottom: 0.8rem;
+        transition: var(--transition);
+      }
+
+      .btn:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-hover);
+        color: var(--primary-color);
+      }
+
+      .btn:hover i {
+        transform: scale(1.2);
+      }
+
+      .btn-primary {
+        background: var(--gradient);
+        color: var(--white);
+      }
+
+      .btn-primary:hover {
+        background: var(--white);
+        color: var(--primary-color);
+        border-color: var(--primary-color);
+      }
+
+      .btn-secondary {
+        background: var(--secondary-color);
+        color: var(--white);
+      }
+
+      .btn-secondary:hover {
+        background: var(--white);
+        color: var(--secondary-color);
+        border-color: var(--secondary-color);
+      }
+
+      .btn-accent {
+        background: var(--accent-color);
+        color: var(--white);
+      }
+
+      .btn-accent:hover {
+        background: var(--white);
+        color: var(--accent-color);
+        border-color: var(--accent-color);
+      }
+
+      .btn-light {
+        background: var(--light-accent);
+        color: var(--dark-color);
+      }
+
+      .btn-light:hover {
+        background: var(--white);
+        color: var(--dark-color);
+        border-color: var(--light-accent);
+      }
+
+      .stats {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 3rem 0;
+        padding: 2rem;
+        background: var(--white);
+        border-radius: var(--border-radius);
+        box-shadow: var(--shadow);
+      }
+
+      .stat-item {
+        text-align: center;
+        padding: 1rem;
+        min-width: 150px;
+      }
+
+      .stat-number {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--primary-color);
+        margin-bottom: 0.5rem;
+      }
+
+      .stat-label {
+        font-size: 1rem;
+        color: var(--text-light);
+      }
+
+      footer {
+        text-align: center;
+        margin-top: auto;
+        padding: 2rem 0 1rem;
+        color: var(--text-light);
+        font-size: 0.9rem;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+      }
+
+      .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-bottom: 1rem;
+      }
+
+      .footer-links a {
+        color: var(--text-light);
+        text-decoration: none;
+        transition: var(--transition);
+      }
+
+      .footer-links a:hover {
+        color: var(--primary-color);
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes slideUp {
+        from {
+          opacity: 0;
+          transform: translateY(50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.05);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 2.2rem;
+        }
+        .tagline {
+          font-size: 1.1rem;
+        }
+        .btn-container {
+          grid-template-columns: 1fr;
+        }
+        .features {
+          grid-template-columns: 1fr;
+        }
+        .stats {
+          flex-direction: column;
+          align-items: center;
+        }
+        .footer-links {
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .container {
+          padding: 1rem;
+        }
+        h1 {
+          font-size: 1.8rem;
+        }
+        .logo-icon {
+          font-size: 2.5rem;
+        }
+        .btn {
+          padding: 1.2rem 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <div class="logo-icon">
+            <i class="fas fa-tractor"></i>
+          </div>
+          <h1>FarmLink</h1>
+        </div>
+        <p class="tagline">
+          An AI-powered agricultural platform for crop recommendations, market
+          insights, and farming intelligence to support modern farmers.
+        </p>
+      </header>
+
+      <div class="features">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <h3>Crop Recommendations</h3>
+          <p>
+            AI-powered analysis to recommend the best crops based on soil,
+            climate, and market conditions.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Market Forecast</h3>
+          <p>
+            Predict market trends and prices to help farmers maximize their
+            profits.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-cloud-sun-rain"></i>
+          </div>
+          <h3>Weather Intelligence</h3>
+          <p>
+            Accurate weather predictions and farming recommendations based on
+            climate data.
+          </p>
+        </div>
+      </div>
+
+      <div class="btn-container">
+        <a href="{{ url_for('login') }}" class="btn btn-primary">
+          <i class="fas fa-sign-in-alt"></i>
+          <span>Farmer Login</span>
+        </a>
+        <a href="{{ url_for('register') }}" class="btn btn-secondary">
+          <i class="fas fa-user-plus"></i>
+          <span>Register Farm</span>
+        </a>
+        <a href="{{ url_for('crop_recommendation') }}" class="btn btn-accent">
+          <i class="fas fa-seedling"></i>
+          <span>Crop Recommendation</span>
+        </a>
+        <a href="{{ url_for('market') }}" class="btn btn-light">
+          <i class="fas fa-chart-bar"></i>
+          <span>Market Forecast</span>
+        </a>
+        <a href="{{ url_for('customer_support') }}" class="btn btn-light">
+          <i class="fas fa-headset"></i>
+          <span>Farmer Support</span>
+        </a>
+        <a href="{{ url_for('about') }}" class="btn btn-light">
+          <i class="fas fa-info-circle"></i>
+          <span>About FarmLink</span>
+        </a>
+      </div>
+
+      <div class="stats">
+        <div class="stat-item">
+          <div class="stat-number">15K+</div>
+          <div class="stat-label">Farmers Served</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">95%</div>
+          <div class="stat-label">Success Rate</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">50+</div>
+          <div class="stat-label">Crop Varieties</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">24/7</div>
+          <div class="stat-label">Support Available</div>
+        </div>
+      </div>
+
+      <footer>
+        <p>&copy; 2026 FarmLink Agricultural Platform | Smart cities Project</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,2001 @@
+Buyer_ID,Preferred_Crop,Quantity_Needed,Max_Price,Location
+B0001,Millets,1139,40.75,Gujarat
+B0002,Wheat,486,36.35,Kerala
+B0003,Wheat,878,50.33,Karnataka
+B0004,Rice,983,66.52,Tamil Nadu
+B0005,Maize,308,61.85,Kerala
+B0006,Barley,152,69.77,Andhra Pradesh
+B0007,Wheat,1042,21.13,Maharashtra
+B0008,Rice,818,25.64,Telangana
+B0009,Sugarcane,1174,50.47,Gujarat
+B0010,Millets,1271,61.03,Andhra Pradesh
+B0011,Pulses,862,34.26,Maharashtra
+B0012,Barley,275,31.96,Punjab
+B0013,Cotton,992,59.35,Gujarat
+B0014,Barley,512,22.82,Karnataka
+B0015,Millets,286,38.47,Gujarat
+B0016,Barley,1099,45.29,Tamil Nadu
+B0017,Millets,1194,48.02,Tamil Nadu
+B0018,Rice,555,56.43,Maharashtra
+B0019,Cotton,1255,37.74,Andhra Pradesh
+B0020,Wheat,863,50.63,Telangana
+B0021,Wheat,816,49.27,Karnataka
+B0022,Barley,683,47.38,Maharashtra
+B0023,Rice,1388,52.02,Punjab
+B0024,Cotton,1040,32.97,Karnataka
+B0025,Wheat,667,24.23,Tamil Nadu
+B0026,Sugarcane,322,25.96,Kerala
+B0027,Maize,281,31.23,Kerala
+B0028,Maize,1493,45.01,Telangana
+B0029,Wheat,817,62.02,Karnataka
+B0030,Cotton,545,55.06,Maharashtra
+B0031,Pulses,1097,59.45,Telangana
+B0032,Wheat,1182,37.55,Gujarat
+B0033,Pulses,551,40.23,Gujarat
+B0034,Pulses,74,39.68,Punjab
+B0035,Millets,1260,29.59,Andhra Pradesh
+B0036,Millets,337,23.06,Kerala
+B0037,Cotton,387,49.55,Maharashtra
+B0038,Pulses,1110,69.46,Karnataka
+B0039,Sugarcane,186,28.34,Telangana
+B0040,Cotton,557,22.33,Maharashtra
+B0041,Wheat,276,58.98,Telangana
+B0042,Barley,369,32.63,Telangana
+B0043,Sugarcane,965,61.48,Telangana
+B0044,Rice,1255,55.2,Karnataka
+B0045,Maize,135,67.28,Maharashtra
+B0046,Wheat,975,40.45,Tamil Nadu
+B0047,Wheat,102,53.1,Tamil Nadu
+B0048,Wheat,909,43.24,Karnataka
+B0049,Sugarcane,916,51.53,Gujarat
+B0050,Rice,1308,42.48,Karnataka
+B0051,Barley,482,29.43,Kerala
+B0052,Cotton,1048,45.39,Telangana
+B0053,Millets,149,46.43,Maharashtra
+B0054,Rice,1039,60.53,Maharashtra
+B0055,Sugarcane,648,56.78,Andhra Pradesh
+B0056,Wheat,452,53.19,Andhra Pradesh
+B0057,Maize,445,25.67,Punjab
+B0058,Wheat,464,56.03,Tamil Nadu
+B0059,Cotton,988,45.02,Andhra Pradesh
+B0060,Pulses,726,64.7,Andhra Pradesh
+B0061,Maize,512,65.99,Tamil Nadu
+B0062,Wheat,590,22.76,Kerala
+B0063,Barley,1437,61.03,Gujarat
+B0064,Maize,1203,21.88,Tamil Nadu
+B0065,Pulses,133,38.36,Gujarat
+B0066,Millets,320,47.11,Punjab
+B0067,Rice,293,27.41,Andhra Pradesh
+B0068,Sugarcane,437,57.32,Maharashtra
+B0069,Millets,263,20.42,Andhra Pradesh
+B0070,Wheat,867,28.43,Telangana
+B0071,Cotton,1239,49.04,Punjab
+B0072,Rice,108,55.72,Gujarat
+B0073,Millets,932,65.83,Gujarat
+B0074,Wheat,892,55.27,Telangana
+B0075,Rice,973,53.59,Telangana
+B0076,Millets,172,39.72,Kerala
+B0077,Cotton,1486,20.06,Karnataka
+B0078,Wheat,1212,26.01,Telangana
+B0079,Pulses,1302,46.73,Gujarat
+B0080,Pulses,1347,53.76,Maharashtra
+B0081,Cotton,488,40.87,Gujarat
+B0082,Maize,1071,56.53,Gujarat
+B0083,Cotton,611,46.09,Kerala
+B0084,Maize,167,23.71,Karnataka
+B0085,Wheat,954,29.6,Karnataka
+B0086,Millets,444,62.0,Telangana
+B0087,Maize,925,56.25,Punjab
+B0088,Wheat,984,64.74,Andhra Pradesh
+B0089,Wheat,1151,25.88,Gujarat
+B0090,Barley,1001,69.51,Tamil Nadu
+B0091,Sugarcane,1485,30.47,Andhra Pradesh
+B0092,Wheat,124,20.59,Andhra Pradesh
+B0093,Maize,344,69.87,Karnataka
+B0094,Sugarcane,70,34.05,Karnataka
+B0095,Sugarcane,1244,53.4,Kerala
+B0096,Wheat,1088,28.83,Kerala
+B0097,Cotton,1284,49.01,Karnataka
+B0098,Cotton,609,65.2,Maharashtra
+B0099,Pulses,1159,36.01,Maharashtra
+B0100,Sugarcane,1222,53.51,Tamil Nadu
+B0101,Wheat,421,29.4,Karnataka
+B0102,Barley,867,51.24,Telangana
+B0103,Cotton,1224,36.82,Kerala
+B0104,Barley,1214,30.56,Karnataka
+B0105,Wheat,1142,35.66,Maharashtra
+B0106,Wheat,1333,28.94,Karnataka
+B0107,Millets,895,65.1,Maharashtra
+B0108,Sugarcane,570,39.86,Karnataka
+B0109,Millets,420,32.26,Gujarat
+B0110,Barley,1492,42.42,Telangana
+B0111,Millets,150,36.03,Punjab
+B0112,Pulses,710,57.22,Tamil Nadu
+B0113,Sugarcane,1017,68.56,Gujarat
+B0114,Rice,292,41.9,Telangana
+B0115,Millets,802,63.05,Maharashtra
+B0116,Barley,561,48.29,Kerala
+B0117,Cotton,898,27.86,Kerala
+B0118,Cotton,604,54.53,Andhra Pradesh
+B0119,Cotton,1168,45.67,Telangana
+B0120,Maize,275,52.53,Karnataka
+B0121,Wheat,263,64.48,Tamil Nadu
+B0122,Sugarcane,767,42.02,Karnataka
+B0123,Cotton,116,65.06,Karnataka
+B0124,Rice,445,57.53,Telangana
+B0125,Cotton,661,44.43,Punjab
+B0126,Pulses,1085,50.16,Tamil Nadu
+B0127,Wheat,1310,36.28,Andhra Pradesh
+B0128,Barley,819,69.18,Gujarat
+B0129,Wheat,1472,53.37,Karnataka
+B0130,Millets,456,22.19,Tamil Nadu
+B0131,Barley,974,36.33,Andhra Pradesh
+B0132,Barley,696,51.17,Gujarat
+B0133,Millets,271,22.82,Karnataka
+B0134,Sugarcane,1229,21.19,Tamil Nadu
+B0135,Millets,703,42.5,Gujarat
+B0136,Maize,477,36.63,Telangana
+B0137,Barley,1231,41.91,Punjab
+B0138,Barley,1026,33.13,Kerala
+B0139,Millets,1489,28.24,Kerala
+B0140,Sugarcane,1055,54.46,Karnataka
+B0141,Cotton,1399,45.73,Karnataka
+B0142,Pulses,420,30.01,Gujarat
+B0143,Rice,1417,35.98,Tamil Nadu
+B0144,Sugarcane,1335,49.59,Kerala
+B0145,Maize,1356,23.61,Karnataka
+B0146,Sugarcane,899,27.37,Andhra Pradesh
+B0147,Wheat,905,23.66,Karnataka
+B0148,Cotton,278,60.62,Kerala
+B0149,Cotton,329,57.62,Maharashtra
+B0150,Barley,1363,57.67,Punjab
+B0151,Cotton,1120,55.82,Kerala
+B0152,Cotton,1024,53.47,Andhra Pradesh
+B0153,Millets,1287,43.85,Tamil Nadu
+B0154,Cotton,807,52.11,Andhra Pradesh
+B0155,Cotton,1097,21.92,Maharashtra
+B0156,Rice,370,51.07,Maharashtra
+B0157,Maize,323,58.89,Karnataka
+B0158,Barley,605,45.02,Karnataka
+B0159,Millets,893,37.88,Kerala
+B0160,Cotton,1386,33.87,Telangana
+B0161,Barley,1436,52.14,Punjab
+B0162,Maize,717,54.64,Andhra Pradesh
+B0163,Millets,1049,63.55,Kerala
+B0164,Pulses,429,37.12,Telangana
+B0165,Cotton,760,58.49,Kerala
+B0166,Barley,795,48.07,Punjab
+B0167,Sugarcane,724,64.14,Punjab
+B0168,Millets,165,46.39,Maharashtra
+B0169,Millets,654,45.88,Karnataka
+B0170,Barley,1115,48.89,Karnataka
+B0171,Cotton,428,57.47,Punjab
+B0172,Wheat,1279,68.23,Kerala
+B0173,Rice,515,23.68,Punjab
+B0174,Sugarcane,329,22.67,Karnataka
+B0175,Sugarcane,667,66.88,Tamil Nadu
+B0176,Wheat,167,46.49,Kerala
+B0177,Cotton,1310,50.75,Maharashtra
+B0178,Millets,358,44.12,Gujarat
+B0179,Millets,149,24.68,Kerala
+B0180,Rice,310,58.4,Kerala
+B0181,Sugarcane,1042,57.36,Karnataka
+B0182,Rice,1378,35.59,Maharashtra
+B0183,Sugarcane,1427,35.31,Kerala
+B0184,Cotton,335,61.89,Karnataka
+B0185,Pulses,377,23.62,Punjab
+B0186,Sugarcane,1176,64.06,Andhra Pradesh
+B0187,Pulses,112,32.83,Maharashtra
+B0188,Sugarcane,736,49.65,Telangana
+B0189,Millets,1355,66.8,Tamil Nadu
+B0190,Maize,1366,53.91,Telangana
+B0191,Cotton,787,40.72,Gujarat
+B0192,Wheat,1080,54.48,Punjab
+B0193,Pulses,688,37.2,Maharashtra
+B0194,Wheat,985,33.86,Kerala
+B0195,Cotton,1165,69.83,Karnataka
+B0196,Barley,1263,57.54,Gujarat
+B0197,Wheat,525,52.24,Maharashtra
+B0198,Cotton,102,37.76,Tamil Nadu
+B0199,Millets,803,22.46,Maharashtra
+B0200,Wheat,535,21.55,Gujarat
+B0201,Pulses,1437,47.71,Karnataka
+B0202,Maize,1185,58.1,Telangana
+B0203,Wheat,458,46.87,Andhra Pradesh
+B0204,Pulses,1080,62.04,Telangana
+B0205,Sugarcane,717,21.67,Karnataka
+B0206,Cotton,1270,38.34,Gujarat
+B0207,Rice,884,31.85,Karnataka
+B0208,Barley,925,42.36,Punjab
+B0209,Millets,416,23.62,Tamil Nadu
+B0210,Rice,1051,67.71,Maharashtra
+B0211,Millets,299,31.16,Punjab
+B0212,Cotton,1313,66.12,Maharashtra
+B0213,Millets,429,41.29,Telangana
+B0214,Maize,921,69.28,Gujarat
+B0215,Wheat,884,47.7,Andhra Pradesh
+B0216,Maize,824,66.54,Andhra Pradesh
+B0217,Rice,968,20.27,Tamil Nadu
+B0218,Barley,504,57.41,Karnataka
+B0219,Pulses,415,65.15,Tamil Nadu
+B0220,Barley,1363,26.99,Maharashtra
+B0221,Cotton,452,24.81,Kerala
+B0222,Cotton,107,41.23,Kerala
+B0223,Maize,570,66.68,Kerala
+B0224,Pulses,1377,47.12,Karnataka
+B0225,Maize,1188,46.37,Tamil Nadu
+B0226,Wheat,259,27.06,Punjab
+B0227,Sugarcane,1114,20.04,Gujarat
+B0228,Pulses,865,60.51,Telangana
+B0229,Sugarcane,222,24.38,Maharashtra
+B0230,Barley,283,51.69,Kerala
+B0231,Wheat,842,65.73,Gujarat
+B0232,Millets,842,30.43,Andhra Pradesh
+B0233,Millets,1476,53.26,Punjab
+B0234,Sugarcane,1112,23.93,Tamil Nadu
+B0235,Rice,168,50.19,Maharashtra
+B0236,Barley,384,28.2,Maharashtra
+B0237,Sugarcane,1409,56.8,Andhra Pradesh
+B0238,Wheat,1147,35.06,Punjab
+B0239,Sugarcane,1264,43.17,Andhra Pradesh
+B0240,Cotton,373,49.97,Andhra Pradesh
+B0241,Maize,1060,28.56,Kerala
+B0242,Rice,1220,57.08,Punjab
+B0243,Cotton,333,35.13,Kerala
+B0244,Cotton,262,53.12,Tamil Nadu
+B0245,Wheat,978,27.91,Andhra Pradesh
+B0246,Maize,801,54.41,Telangana
+B0247,Maize,1467,26.41,Maharashtra
+B0248,Pulses,388,41.27,Punjab
+B0249,Barley,1095,32.36,Andhra Pradesh
+B0250,Rice,154,57.42,Punjab
+B0251,Barley,819,33.1,Maharashtra
+B0252,Wheat,765,64.09,Karnataka
+B0253,Rice,812,64.59,Gujarat
+B0254,Pulses,1294,29.82,Karnataka
+B0255,Sugarcane,428,50.69,Andhra Pradesh
+B0256,Cotton,1295,24.39,Maharashtra
+B0257,Rice,1331,39.58,Gujarat
+B0258,Barley,762,55.67,Karnataka
+B0259,Cotton,1440,52.97,Andhra Pradesh
+B0260,Wheat,1422,51.24,Maharashtra
+B0261,Barley,274,34.13,Andhra Pradesh
+B0262,Sugarcane,787,38.9,Kerala
+B0263,Wheat,285,25.15,Maharashtra
+B0264,Millets,232,55.95,Karnataka
+B0265,Sugarcane,761,45.19,Andhra Pradesh
+B0266,Sugarcane,493,55.44,Punjab
+B0267,Cotton,672,32.45,Karnataka
+B0268,Wheat,1079,36.22,Andhra Pradesh
+B0269,Wheat,1309,36.71,Punjab
+B0270,Rice,1200,21.29,Punjab
+B0271,Barley,1177,37.05,Tamil Nadu
+B0272,Millets,798,60.17,Punjab
+B0273,Wheat,204,64.86,Karnataka
+B0274,Rice,306,45.91,Karnataka
+B0275,Millets,284,42.78,Telangana
+B0276,Maize,549,21.54,Gujarat
+B0277,Maize,338,63.96,Kerala
+B0278,Millets,559,20.65,Karnataka
+B0279,Maize,758,67.24,Maharashtra
+B0280,Pulses,834,44.46,Gujarat
+B0281,Wheat,943,37.1,Punjab
+B0282,Pulses,825,66.21,Andhra Pradesh
+B0283,Barley,347,21.22,Tamil Nadu
+B0284,Wheat,186,49.07,Maharashtra
+B0285,Rice,425,47.45,Gujarat
+B0286,Pulses,136,30.97,Maharashtra
+B0287,Pulses,1492,41.44,Maharashtra
+B0288,Barley,1272,52.61,Maharashtra
+B0289,Pulses,486,56.36,Gujarat
+B0290,Sugarcane,1383,20.04,Tamil Nadu
+B0291,Rice,1354,66.84,Punjab
+B0292,Maize,1396,28.23,Telangana
+B0293,Rice,813,31.68,Kerala
+B0294,Sugarcane,751,33.17,Punjab
+B0295,Barley,991,21.89,Karnataka
+B0296,Barley,201,26.15,Gujarat
+B0297,Wheat,1375,69.32,Maharashtra
+B0298,Rice,1351,35.76,Punjab
+B0299,Millets,1081,25.77,Karnataka
+B0300,Millets,856,25.35,Gujarat
+B0301,Barley,284,55.97,Karnataka
+B0302,Pulses,724,62.73,Maharashtra
+B0303,Barley,610,32.85,Telangana
+B0304,Barley,1375,21.05,Gujarat
+B0305,Barley,87,31.15,Karnataka
+B0306,Barley,1209,22.83,Andhra Pradesh
+B0307,Millets,871,25.17,Karnataka
+B0308,Millets,470,41.58,Kerala
+B0309,Maize,1292,31.5,Maharashtra
+B0310,Maize,397,45.8,Tamil Nadu
+B0311,Wheat,1152,32.67,Karnataka
+B0312,Barley,797,67.03,Telangana
+B0313,Millets,322,65.3,Andhra Pradesh
+B0314,Rice,1234,48.34,Andhra Pradesh
+B0315,Sugarcane,357,37.72,Tamil Nadu
+B0316,Wheat,1447,39.06,Punjab
+B0317,Millets,1025,40.59,Kerala
+B0318,Rice,782,56.38,Tamil Nadu
+B0319,Barley,1082,42.58,Kerala
+B0320,Cotton,493,62.84,Karnataka
+B0321,Barley,1186,67.2,Maharashtra
+B0322,Maize,1278,36.8,Telangana
+B0323,Sugarcane,454,48.03,Andhra Pradesh
+B0324,Millets,902,24.75,Tamil Nadu
+B0325,Millets,1270,30.02,Telangana
+B0326,Pulses,827,40.67,Kerala
+B0327,Sugarcane,164,30.31,Maharashtra
+B0328,Pulses,1194,63.83,Andhra Pradesh
+B0329,Sugarcane,114,27.91,Andhra Pradesh
+B0330,Maize,1349,42.78,Kerala
+B0331,Pulses,874,50.28,Maharashtra
+B0332,Rice,288,54.59,Andhra Pradesh
+B0333,Pulses,351,39.15,Maharashtra
+B0334,Wheat,1465,63.45,Andhra Pradesh
+B0335,Rice,1018,48.42,Karnataka
+B0336,Wheat,418,41.98,Kerala
+B0337,Barley,282,23.36,Maharashtra
+B0338,Sugarcane,244,43.23,Telangana
+B0339,Rice,956,61.04,Punjab
+B0340,Sugarcane,1085,50.73,Karnataka
+B0341,Barley,970,61.61,Gujarat
+B0342,Cotton,738,44.7,Telangana
+B0343,Millets,226,25.92,Kerala
+B0344,Sugarcane,266,20.68,Andhra Pradesh
+B0345,Barley,1084,35.16,Gujarat
+B0346,Sugarcane,679,54.9,Telangana
+B0347,Barley,213,59.51,Karnataka
+B0348,Wheat,102,34.79,Gujarat
+B0349,Barley,267,44.78,Gujarat
+B0350,Pulses,1048,41.06,Maharashtra
+B0351,Cotton,873,40.53,Tamil Nadu
+B0352,Sugarcane,1433,31.57,Telangana
+B0353,Barley,434,26.82,Tamil Nadu
+B0354,Barley,105,29.83,Kerala
+B0355,Sugarcane,167,22.77,Telangana
+B0356,Millets,949,29.91,Telangana
+B0357,Cotton,1326,20.46,Maharashtra
+B0358,Cotton,847,51.36,Andhra Pradesh
+B0359,Barley,829,35.82,Karnataka
+B0360,Rice,1065,68.66,Karnataka
+B0361,Wheat,852,29.69,Karnataka
+B0362,Cotton,894,37.29,Punjab
+B0363,Cotton,1253,37.89,Kerala
+B0364,Maize,1488,20.42,Gujarat
+B0365,Pulses,1308,61.96,Andhra Pradesh
+B0366,Cotton,904,21.6,Tamil Nadu
+B0367,Wheat,757,67.01,Karnataka
+B0368,Pulses,1153,64.6,Punjab
+B0369,Pulses,71,46.78,Tamil Nadu
+B0370,Sugarcane,892,47.18,Andhra Pradesh
+B0371,Sugarcane,1166,52.69,Kerala
+B0372,Sugarcane,241,39.35,Andhra Pradesh
+B0373,Sugarcane,1068,52.36,Maharashtra
+B0374,Maize,1176,22.24,Gujarat
+B0375,Cotton,445,22.7,Karnataka
+B0376,Sugarcane,1080,42.86,Kerala
+B0377,Barley,689,47.48,Maharashtra
+B0378,Rice,1068,64.39,Karnataka
+B0379,Sugarcane,616,25.23,Andhra Pradesh
+B0380,Cotton,280,61.13,Andhra Pradesh
+B0381,Sugarcane,923,30.5,Punjab
+B0382,Maize,623,39.7,Telangana
+B0383,Wheat,289,35.83,Telangana
+B0384,Wheat,139,40.01,Andhra Pradesh
+B0385,Cotton,281,27.52,Andhra Pradesh
+B0386,Barley,506,45.18,Tamil Nadu
+B0387,Wheat,282,60.08,Punjab
+B0388,Millets,403,42.08,Gujarat
+B0389,Wheat,1054,44.53,Tamil Nadu
+B0390,Rice,1406,62.44,Gujarat
+B0391,Cotton,488,55.3,Maharashtra
+B0392,Barley,1448,44.52,Telangana
+B0393,Cotton,1365,32.88,Telangana
+B0394,Wheat,394,64.25,Punjab
+B0395,Wheat,713,48.85,Andhra Pradesh
+B0396,Wheat,706,31.06,Andhra Pradesh
+B0397,Pulses,179,33.46,Maharashtra
+B0398,Maize,190,60.16,Kerala
+B0399,Sugarcane,464,22.21,Kerala
+B0400,Millets,1166,69.6,Punjab
+B0401,Maize,675,26.52,Kerala
+B0402,Cotton,333,59.8,Telangana
+B0403,Millets,272,39.74,Tamil Nadu
+B0404,Rice,793,44.61,Kerala
+B0405,Sugarcane,512,64.03,Karnataka
+B0406,Rice,1349,40.65,Punjab
+B0407,Barley,1213,46.87,Maharashtra
+B0408,Pulses,406,22.46,Kerala
+B0409,Cotton,1096,20.12,Karnataka
+B0410,Pulses,1343,32.24,Kerala
+B0411,Cotton,908,54.03,Tamil Nadu
+B0412,Rice,714,26.06,Tamil Nadu
+B0413,Rice,1406,25.69,Kerala
+B0414,Rice,1064,40.55,Punjab
+B0415,Cotton,134,52.39,Punjab
+B0416,Wheat,670,55.6,Karnataka
+B0417,Rice,1104,28.92,Maharashtra
+B0418,Pulses,289,23.98,Karnataka
+B0419,Barley,412,67.02,Maharashtra
+B0420,Sugarcane,871,33.03,Kerala
+B0421,Cotton,1462,62.67,Maharashtra
+B0422,Millets,717,63.17,Andhra Pradesh
+B0423,Pulses,1372,58.63,Telangana
+B0424,Maize,1444,28.44,Gujarat
+B0425,Barley,148,61.09,Telangana
+B0426,Maize,96,58.46,Tamil Nadu
+B0427,Sugarcane,888,49.84,Andhra Pradesh
+B0428,Wheat,471,36.86,Telangana
+B0429,Rice,111,33.13,Kerala
+B0430,Cotton,1182,26.09,Maharashtra
+B0431,Pulses,1192,45.49,Maharashtra
+B0432,Millets,1059,49.26,Karnataka
+B0433,Rice,647,37.97,Karnataka
+B0434,Pulses,1455,43.77,Punjab
+B0435,Cotton,441,38.18,Maharashtra
+B0436,Maize,1026,52.05,Punjab
+B0437,Rice,1125,65.06,Kerala
+B0438,Sugarcane,652,28.2,Maharashtra
+B0439,Wheat,1362,39.07,Karnataka
+B0440,Sugarcane,386,27.04,Telangana
+B0441,Wheat,859,51.25,Punjab
+B0442,Barley,1277,56.44,Punjab
+B0443,Pulses,1311,66.6,Tamil Nadu
+B0444,Rice,1455,33.94,Karnataka
+B0445,Rice,801,67.51,Kerala
+B0446,Barley,1209,23.16,Punjab
+B0447,Wheat,1480,50.15,Telangana
+B0448,Maize,1435,22.86,Telangana
+B0449,Cotton,1454,64.69,Telangana
+B0450,Sugarcane,930,46.49,Andhra Pradesh
+B0451,Barley,684,53.47,Andhra Pradesh
+B0452,Millets,303,61.58,Gujarat
+B0453,Millets,1187,27.52,Telangana
+B0454,Pulses,69,21.93,Punjab
+B0455,Barley,577,63.94,Kerala
+B0456,Sugarcane,1218,35.75,Maharashtra
+B0457,Sugarcane,1281,26.45,Kerala
+B0458,Pulses,425,43.42,Andhra Pradesh
+B0459,Pulses,215,49.92,Karnataka
+B0460,Rice,1254,21.55,Punjab
+B0461,Sugarcane,910,33.74,Gujarat
+B0462,Cotton,666,21.64,Andhra Pradesh
+B0463,Millets,661,41.02,Maharashtra
+B0464,Cotton,1405,64.76,Tamil Nadu
+B0465,Wheat,552,69.13,Gujarat
+B0466,Barley,962,51.85,Andhra Pradesh
+B0467,Pulses,128,28.08,Kerala
+B0468,Rice,634,65.29,Gujarat
+B0469,Cotton,737,45.81,Punjab
+B0470,Maize,445,27.69,Kerala
+B0471,Millets,1176,66.09,Telangana
+B0472,Rice,451,57.87,Telangana
+B0473,Rice,1024,56.59,Telangana
+B0474,Cotton,273,55.46,Gujarat
+B0475,Maize,567,30.02,Tamil Nadu
+B0476,Wheat,683,30.55,Maharashtra
+B0477,Cotton,285,54.41,Punjab
+B0478,Maize,165,30.99,Gujarat
+B0479,Rice,1236,41.93,Karnataka
+B0480,Millets,275,59.1,Punjab
+B0481,Maize,279,59.2,Kerala
+B0482,Rice,231,42.66,Kerala
+B0483,Barley,1322,59.61,Gujarat
+B0484,Cotton,1391,61.93,Gujarat
+B0485,Pulses,259,52.74,Maharashtra
+B0486,Cotton,1465,31.42,Tamil Nadu
+B0487,Barley,145,33.7,Gujarat
+B0488,Sugarcane,943,35.74,Telangana
+B0489,Sugarcane,805,25.84,Maharashtra
+B0490,Sugarcane,1159,33.66,Karnataka
+B0491,Cotton,464,30.48,Telangana
+B0492,Wheat,443,42.77,Karnataka
+B0493,Cotton,745,65.42,Andhra Pradesh
+B0494,Millets,893,25.22,Karnataka
+B0495,Barley,653,56.01,Telangana
+B0496,Millets,631,54.36,Andhra Pradesh
+B0497,Barley,182,24.79,Telangana
+B0498,Pulses,840,66.13,Kerala
+B0499,Maize,698,48.42,Telangana
+B0500,Cotton,1387,38.19,Andhra Pradesh
+B0501,Cotton,270,57.83,Karnataka
+B0502,Rice,1025,32.87,Kerala
+B0503,Barley,1119,54.68,Tamil Nadu
+B0504,Rice,1265,21.99,Tamil Nadu
+B0505,Rice,1452,61.97,Punjab
+B0506,Cotton,837,42.41,Tamil Nadu
+B0507,Wheat,740,51.83,Tamil Nadu
+B0508,Maize,1407,31.06,Maharashtra
+B0509,Maize,88,53.85,Tamil Nadu
+B0510,Millets,1366,58.61,Andhra Pradesh
+B0511,Barley,739,43.66,Gujarat
+B0512,Pulses,211,50.89,Tamil Nadu
+B0513,Barley,1404,42.82,Telangana
+B0514,Wheat,1177,64.7,Gujarat
+B0515,Wheat,210,44.89,Tamil Nadu
+B0516,Maize,1127,62.09,Gujarat
+B0517,Sugarcane,1107,60.07,Karnataka
+B0518,Rice,291,40.53,Andhra Pradesh
+B0519,Rice,1016,31.5,Andhra Pradesh
+B0520,Maize,939,40.3,Punjab
+B0521,Barley,162,61.31,Gujarat
+B0522,Wheat,1063,31.38,Punjab
+B0523,Barley,367,46.22,Kerala
+B0524,Pulses,72,60.3,Maharashtra
+B0525,Sugarcane,873,37.67,Telangana
+B0526,Maize,1191,52.11,Gujarat
+B0527,Rice,750,32.28,Andhra Pradesh
+B0528,Cotton,1068,25.46,Punjab
+B0529,Barley,1285,59.72,Karnataka
+B0530,Wheat,1491,24.95,Tamil Nadu
+B0531,Cotton,1186,33.57,Andhra Pradesh
+B0532,Pulses,1117,62.76,Karnataka
+B0533,Maize,177,37.32,Tamil Nadu
+B0534,Barley,925,68.65,Maharashtra
+B0535,Rice,207,68.99,Andhra Pradesh
+B0536,Barley,876,33.41,Punjab
+B0537,Sugarcane,1467,22.05,Andhra Pradesh
+B0538,Millets,901,55.25,Gujarat
+B0539,Cotton,561,42.55,Gujarat
+B0540,Sugarcane,94,25.04,Karnataka
+B0541,Pulses,1181,55.38,Punjab
+B0542,Rice,268,21.56,Kerala
+B0543,Cotton,492,63.51,Gujarat
+B0544,Pulses,364,26.93,Telangana
+B0545,Sugarcane,226,26.37,Maharashtra
+B0546,Sugarcane,277,28.78,Telangana
+B0547,Millets,316,68.01,Andhra Pradesh
+B0548,Cotton,919,54.66,Telangana
+B0549,Rice,887,60.07,Tamil Nadu
+B0550,Sugarcane,1452,39.88,Maharashtra
+B0551,Maize,538,36.82,Telangana
+B0552,Millets,751,31.72,Tamil Nadu
+B0553,Pulses,736,44.03,Karnataka
+B0554,Cotton,1363,47.59,Telangana
+B0555,Wheat,1045,51.59,Maharashtra
+B0556,Wheat,406,32.86,Tamil Nadu
+B0557,Rice,921,67.43,Telangana
+B0558,Maize,253,28.49,Karnataka
+B0559,Sugarcane,1286,68.28,Telangana
+B0560,Wheat,601,20.74,Tamil Nadu
+B0561,Rice,372,44.06,Telangana
+B0562,Pulses,643,36.67,Maharashtra
+B0563,Millets,230,42.46,Andhra Pradesh
+B0564,Maize,548,48.53,Punjab
+B0565,Maize,1393,41.78,Punjab
+B0566,Barley,132,40.74,Tamil Nadu
+B0567,Rice,352,56.64,Tamil Nadu
+B0568,Rice,311,54.29,Tamil Nadu
+B0569,Barley,833,61.66,Tamil Nadu
+B0570,Millets,1273,32.5,Telangana
+B0571,Sugarcane,1313,50.48,Maharashtra
+B0572,Rice,963,49.26,Punjab
+B0573,Barley,741,38.49,Karnataka
+B0574,Sugarcane,993,44.3,Punjab
+B0575,Millets,732,35.69,Maharashtra
+B0576,Sugarcane,1368,27.09,Tamil Nadu
+B0577,Cotton,738,30.69,Kerala
+B0578,Maize,445,25.28,Telangana
+B0579,Pulses,1211,54.15,Kerala
+B0580,Maize,888,53.04,Telangana
+B0581,Maize,927,67.53,Tamil Nadu
+B0582,Cotton,872,56.48,Telangana
+B0583,Sugarcane,1202,22.6,Tamil Nadu
+B0584,Sugarcane,98,64.21,Maharashtra
+B0585,Rice,838,63.13,Gujarat
+B0586,Cotton,342,42.17,Andhra Pradesh
+B0587,Rice,585,49.29,Telangana
+B0588,Cotton,360,68.8,Tamil Nadu
+B0589,Rice,586,46.62,Kerala
+B0590,Wheat,688,65.27,Tamil Nadu
+B0591,Barley,283,24.15,Kerala
+B0592,Maize,1282,29.55,Punjab
+B0593,Maize,654,42.04,Telangana
+B0594,Millets,143,49.24,Karnataka
+B0595,Pulses,376,60.81,Kerala
+B0596,Barley,274,69.41,Tamil Nadu
+B0597,Sugarcane,1016,39.44,Telangana
+B0598,Pulses,939,22.37,Tamil Nadu
+B0599,Wheat,60,60.06,Karnataka
+B0600,Millets,1402,50.22,Andhra Pradesh
+B0601,Pulses,1085,29.93,Gujarat
+B0602,Millets,84,44.74,Gujarat
+B0603,Maize,496,57.12,Karnataka
+B0604,Sugarcane,1293,58.52,Maharashtra
+B0605,Wheat,490,44.98,Telangana
+B0606,Maize,702,35.26,Karnataka
+B0607,Barley,644,68.69,Andhra Pradesh
+B0608,Rice,278,53.17,Tamil Nadu
+B0609,Cotton,393,40.41,Telangana
+B0610,Wheat,1153,34.02,Punjab
+B0611,Sugarcane,1426,56.56,Kerala
+B0612,Millets,1469,32.11,Karnataka
+B0613,Pulses,1363,28.59,Punjab
+B0614,Barley,1038,46.49,Punjab
+B0615,Pulses,1201,34.5,Andhra Pradesh
+B0616,Wheat,958,51.45,Punjab
+B0617,Barley,1432,25.9,Karnataka
+B0618,Sugarcane,576,52.75,Maharashtra
+B0619,Wheat,1386,34.16,Gujarat
+B0620,Sugarcane,124,20.01,Gujarat
+B0621,Pulses,245,26.35,Telangana
+B0622,Maize,78,66.68,Tamil Nadu
+B0623,Barley,755,63.37,Andhra Pradesh
+B0624,Rice,1070,31.68,Karnataka
+B0625,Maize,65,58.92,Telangana
+B0626,Rice,1496,50.43,Karnataka
+B0627,Pulses,854,68.55,Telangana
+B0628,Millets,1478,38.68,Gujarat
+B0629,Barley,989,54.07,Punjab
+B0630,Maize,1016,23.18,Maharashtra
+B0631,Maize,1150,39.81,Karnataka
+B0632,Wheat,278,68.19,Maharashtra
+B0633,Cotton,1011,46.95,Kerala
+B0634,Pulses,1370,34.39,Kerala
+B0635,Sugarcane,764,26.01,Punjab
+B0636,Pulses,1033,55.18,Gujarat
+B0637,Sugarcane,622,52.24,Andhra Pradesh
+B0638,Barley,664,38.7,Maharashtra
+B0639,Sugarcane,375,67.55,Telangana
+B0640,Millets,1436,21.11,Andhra Pradesh
+B0641,Rice,924,35.19,Karnataka
+B0642,Sugarcane,408,66.05,Karnataka
+B0643,Sugarcane,373,36.05,Telangana
+B0644,Wheat,1399,32.61,Tamil Nadu
+B0645,Maize,214,46.71,Punjab
+B0646,Pulses,847,61.19,Tamil Nadu
+B0647,Pulses,504,25.16,Punjab
+B0648,Barley,1226,67.15,Karnataka
+B0649,Barley,1200,59.75,Punjab
+B0650,Millets,242,29.06,Gujarat
+B0651,Sugarcane,676,55.6,Gujarat
+B0652,Cotton,579,39.25,Telangana
+B0653,Pulses,1083,40.11,Tamil Nadu
+B0654,Barley,141,59.16,Maharashtra
+B0655,Sugarcane,188,68.14,Karnataka
+B0656,Barley,530,26.33,Kerala
+B0657,Millets,498,41.03,Maharashtra
+B0658,Rice,1406,44.05,Telangana
+B0659,Rice,918,38.82,Kerala
+B0660,Barley,389,38.16,Maharashtra
+B0661,Rice,1125,22.61,Tamil Nadu
+B0662,Barley,515,54.28,Punjab
+B0663,Sugarcane,767,41.81,Gujarat
+B0664,Wheat,848,29.74,Tamil Nadu
+B0665,Cotton,524,60.8,Kerala
+B0666,Sugarcane,450,60.13,Punjab
+B0667,Wheat,654,44.32,Punjab
+B0668,Wheat,981,34.92,Punjab
+B0669,Pulses,1046,51.9,Andhra Pradesh
+B0670,Sugarcane,971,34.41,Gujarat
+B0671,Sugarcane,870,31.8,Karnataka
+B0672,Barley,706,56.53,Kerala
+B0673,Wheat,647,22.02,Telangana
+B0674,Wheat,1226,24.74,Karnataka
+B0675,Wheat,563,20.34,Maharashtra
+B0676,Barley,1079,27.65,Gujarat
+B0677,Pulses,549,23.45,Telangana
+B0678,Sugarcane,766,69.79,Telangana
+B0679,Wheat,1191,34.44,Tamil Nadu
+B0680,Rice,650,27.46,Maharashtra
+B0681,Sugarcane,715,32.05,Tamil Nadu
+B0682,Barley,517,66.81,Tamil Nadu
+B0683,Pulses,210,46.01,Punjab
+B0684,Rice,319,38.24,Gujarat
+B0685,Barley,1129,63.67,Andhra Pradesh
+B0686,Maize,277,39.75,Tamil Nadu
+B0687,Sugarcane,898,36.75,Karnataka
+B0688,Maize,198,30.36,Telangana
+B0689,Barley,1119,38.89,Gujarat
+B0690,Barley,1217,35.83,Tamil Nadu
+B0691,Barley,681,53.87,Kerala
+B0692,Wheat,1413,34.48,Karnataka
+B0693,Pulses,462,48.86,Maharashtra
+B0694,Wheat,569,23.29,Telangana
+B0695,Pulses,1417,29.56,Gujarat
+B0696,Cotton,436,40.37,Kerala
+B0697,Wheat,324,66.85,Gujarat
+B0698,Maize,402,38.86,Gujarat
+B0699,Pulses,1139,53.2,Kerala
+B0700,Wheat,1152,32.75,Maharashtra
+B0701,Sugarcane,647,26.35,Kerala
+B0702,Barley,1275,22.93,Karnataka
+B0703,Pulses,607,35.27,Punjab
+B0704,Pulses,162,27.88,Gujarat
+B0705,Wheat,1164,28.7,Maharashtra
+B0706,Cotton,190,58.04,Gujarat
+B0707,Wheat,1362,20.79,Kerala
+B0708,Millets,779,47.89,Maharashtra
+B0709,Maize,638,38.97,Maharashtra
+B0710,Maize,460,45.33,Tamil Nadu
+B0711,Pulses,426,48.14,Tamil Nadu
+B0712,Pulses,1457,35.67,Punjab
+B0713,Wheat,1225,34.76,Tamil Nadu
+B0714,Maize,800,56.67,Kerala
+B0715,Maize,676,63.56,Telangana
+B0716,Cotton,1392,29.63,Karnataka
+B0717,Sugarcane,1442,24.88,Kerala
+B0718,Cotton,1044,64.89,Gujarat
+B0719,Millets,752,37.49,Tamil Nadu
+B0720,Rice,511,47.57,Maharashtra
+B0721,Barley,61,37.98,Kerala
+B0722,Cotton,1229,26.29,Maharashtra
+B0723,Millets,526,49.47,Punjab
+B0724,Wheat,988,46.26,Gujarat
+B0725,Sugarcane,450,30.15,Maharashtra
+B0726,Wheat,857,42.59,Maharashtra
+B0727,Barley,226,59.85,Punjab
+B0728,Millets,1414,49.52,Andhra Pradesh
+B0729,Rice,106,24.85,Telangana
+B0730,Sugarcane,497,47.4,Karnataka
+B0731,Pulses,252,55.14,Karnataka
+B0732,Maize,787,59.64,Tamil Nadu
+B0733,Cotton,251,51.46,Andhra Pradesh
+B0734,Millets,1403,27.63,Kerala
+B0735,Wheat,412,55.51,Punjab
+B0736,Rice,941,53.87,Kerala
+B0737,Maize,503,21.22,Karnataka
+B0738,Cotton,405,40.59,Telangana
+B0739,Maize,265,36.65,Maharashtra
+B0740,Cotton,1021,53.47,Gujarat
+B0741,Millets,604,30.81,Tamil Nadu
+B0742,Pulses,936,49.54,Telangana
+B0743,Sugarcane,72,65.66,Karnataka
+B0744,Millets,204,59.89,Andhra Pradesh
+B0745,Maize,1259,66.07,Tamil Nadu
+B0746,Maize,298,68.93,Punjab
+B0747,Maize,798,20.53,Karnataka
+B0748,Sugarcane,854,51.14,Kerala
+B0749,Rice,183,40.64,Tamil Nadu
+B0750,Cotton,370,62.99,Punjab
+B0751,Millets,439,32.59,Karnataka
+B0752,Millets,483,69.05,Kerala
+B0753,Pulses,1095,50.69,Gujarat
+B0754,Maize,922,59.68,Kerala
+B0755,Barley,1198,24.28,Maharashtra
+B0756,Millets,1152,29.17,Punjab
+B0757,Sugarcane,907,57.92,Punjab
+B0758,Rice,100,21.1,Andhra Pradesh
+B0759,Millets,225,60.84,Punjab
+B0760,Cotton,919,20.7,Maharashtra
+B0761,Sugarcane,302,52.86,Karnataka
+B0762,Pulses,1015,38.25,Gujarat
+B0763,Pulses,1319,50.57,Telangana
+B0764,Cotton,788,54.8,Gujarat
+B0765,Maize,1179,37.12,Gujarat
+B0766,Pulses,1266,25.4,Punjab
+B0767,Rice,1389,23.48,Gujarat
+B0768,Sugarcane,351,49.45,Punjab
+B0769,Millets,597,46.03,Maharashtra
+B0770,Rice,765,57.11,Telangana
+B0771,Maize,828,45.49,Kerala
+B0772,Rice,317,41.12,Punjab
+B0773,Rice,1243,39.9,Karnataka
+B0774,Wheat,1059,21.32,Andhra Pradesh
+B0775,Rice,600,36.78,Telangana
+B0776,Cotton,1365,68.8,Karnataka
+B0777,Sugarcane,1214,63.68,Punjab
+B0778,Wheat,1219,36.47,Telangana
+B0779,Sugarcane,1498,49.39,Punjab
+B0780,Sugarcane,363,62.36,Maharashtra
+B0781,Maize,233,42.06,Karnataka
+B0782,Maize,762,20.9,Maharashtra
+B0783,Wheat,177,23.73,Tamil Nadu
+B0784,Pulses,1360,45.52,Karnataka
+B0785,Barley,1326,68.47,Telangana
+B0786,Maize,749,54.66,Tamil Nadu
+B0787,Barley,435,23.55,Maharashtra
+B0788,Maize,1303,29.47,Maharashtra
+B0789,Maize,320,58.57,Telangana
+B0790,Sugarcane,860,62.07,Tamil Nadu
+B0791,Wheat,464,50.88,Gujarat
+B0792,Sugarcane,247,52.22,Kerala
+B0793,Millets,1396,21.42,Andhra Pradesh
+B0794,Cotton,1129,61.43,Telangana
+B0795,Sugarcane,880,59.41,Maharashtra
+B0796,Barley,1276,32.95,Karnataka
+B0797,Barley,677,55.43,Tamil Nadu
+B0798,Cotton,653,30.74,Punjab
+B0799,Rice,1211,22.02,Kerala
+B0800,Rice,1495,30.06,Andhra Pradesh
+B0801,Cotton,1130,28.93,Karnataka
+B0802,Cotton,1059,36.89,Tamil Nadu
+B0803,Sugarcane,120,40.92,Kerala
+B0804,Cotton,960,45.43,Telangana
+B0805,Millets,643,43.84,Punjab
+B0806,Wheat,1445,33.53,Kerala
+B0807,Rice,649,21.46,Telangana
+B0808,Rice,563,50.26,Punjab
+B0809,Millets,133,39.79,Punjab
+B0810,Pulses,1043,34.93,Gujarat
+B0811,Millets,1116,63.35,Tamil Nadu
+B0812,Millets,888,57.34,Punjab
+B0813,Cotton,655,62.89,Kerala
+B0814,Maize,859,44.75,Punjab
+B0815,Maize,182,26.55,Andhra Pradesh
+B0816,Millets,1468,54.81,Kerala
+B0817,Cotton,1138,30.3,Tamil Nadu
+B0818,Wheat,339,42.06,Karnataka
+B0819,Maize,425,23.25,Karnataka
+B0820,Pulses,818,61.27,Kerala
+B0821,Barley,516,26.3,Kerala
+B0822,Cotton,1286,65.15,Telangana
+B0823,Millets,1221,63.21,Tamil Nadu
+B0824,Wheat,520,43.23,Telangana
+B0825,Wheat,198,57.22,Andhra Pradesh
+B0826,Sugarcane,137,50.97,Gujarat
+B0827,Wheat,1397,60.15,Karnataka
+B0828,Maize,445,41.59,Punjab
+B0829,Millets,839,59.29,Punjab
+B0830,Barley,1477,43.12,Maharashtra
+B0831,Maize,1155,67.05,Maharashtra
+B0832,Cotton,1359,44.32,Tamil Nadu
+B0833,Barley,1455,43.13,Punjab
+B0834,Cotton,914,59.25,Tamil Nadu
+B0835,Wheat,1343,61.08,Maharashtra
+B0836,Pulses,1365,47.72,Tamil Nadu
+B0837,Rice,73,28.99,Karnataka
+B0838,Barley,1005,43.39,Andhra Pradesh
+B0839,Millets,360,68.4,Andhra Pradesh
+B0840,Sugarcane,1281,57.65,Punjab
+B0841,Rice,713,60.56,Telangana
+B0842,Wheat,487,21.64,Karnataka
+B0843,Wheat,755,43.39,Gujarat
+B0844,Millets,1409,52.33,Tamil Nadu
+B0845,Rice,471,61.5,Tamil Nadu
+B0846,Sugarcane,370,22.46,Punjab
+B0847,Barley,636,62.62,Gujarat
+B0848,Barley,996,47.42,Telangana
+B0849,Rice,1236,29.87,Telangana
+B0850,Cotton,1238,35.86,Tamil Nadu
+B0851,Maize,898,34.1,Tamil Nadu
+B0852,Pulses,1368,46.54,Gujarat
+B0853,Cotton,91,22.58,Punjab
+B0854,Barley,1358,27.93,Karnataka
+B0855,Maize,988,60.63,Gujarat
+B0856,Pulses,436,26.63,Telangana
+B0857,Pulses,1211,31.67,Gujarat
+B0858,Pulses,1260,42.67,Gujarat
+B0859,Wheat,959,45.86,Gujarat
+B0860,Millets,765,58.18,Karnataka
+B0861,Pulses,480,42.37,Kerala
+B0862,Sugarcane,603,59.49,Tamil Nadu
+B0863,Rice,1489,50.92,Maharashtra
+B0864,Barley,849,25.65,Punjab
+B0865,Sugarcane,475,27.82,Gujarat
+B0866,Rice,1489,41.85,Punjab
+B0867,Cotton,75,39.84,Maharashtra
+B0868,Millets,1444,57.18,Kerala
+B0869,Cotton,434,49.04,Tamil Nadu
+B0870,Rice,105,39.41,Telangana
+B0871,Sugarcane,1326,28.54,Maharashtra
+B0872,Rice,683,31.34,Punjab
+B0873,Pulses,155,48.78,Punjab
+B0874,Wheat,1203,41.17,Punjab
+B0875,Barley,898,45.75,Telangana
+B0876,Cotton,719,28.53,Maharashtra
+B0877,Barley,425,53.15,Punjab
+B0878,Wheat,792,62.63,Telangana
+B0879,Pulses,1016,32.9,Gujarat
+B0880,Pulses,357,44.58,Punjab
+B0881,Cotton,140,68.78,Maharashtra
+B0882,Cotton,1466,36.66,Telangana
+B0883,Pulses,851,49.75,Kerala
+B0884,Maize,159,24.51,Karnataka
+B0885,Barley,634,50.3,Telangana
+B0886,Millets,389,24.48,Karnataka
+B0887,Wheat,1028,67.96,Karnataka
+B0888,Barley,405,55.78,Tamil Nadu
+B0889,Wheat,217,59.41,Gujarat
+B0890,Maize,606,55.21,Kerala
+B0891,Millets,954,49.49,Karnataka
+B0892,Sugarcane,154,42.5,Andhra Pradesh
+B0893,Wheat,199,62.92,Gujarat
+B0894,Barley,195,67.84,Karnataka
+B0895,Rice,765,44.95,Telangana
+B0896,Millets,923,66.58,Karnataka
+B0897,Pulses,348,49.17,Telangana
+B0898,Pulses,1240,46.92,Punjab
+B0899,Maize,695,42.72,Telangana
+B0900,Wheat,772,30.46,Andhra Pradesh
+B0901,Sugarcane,1121,20.19,Karnataka
+B0902,Wheat,687,32.08,Karnataka
+B0903,Pulses,288,45.49,Maharashtra
+B0904,Cotton,1080,39.0,Gujarat
+B0905,Rice,513,42.42,Maharashtra
+B0906,Millets,502,69.03,Tamil Nadu
+B0907,Maize,833,37.51,Telangana
+B0908,Cotton,946,42.61,Andhra Pradesh
+B0909,Barley,420,26.68,Maharashtra
+B0910,Sugarcane,536,22.4,Karnataka
+B0911,Cotton,1284,58.77,Tamil Nadu
+B0912,Barley,214,48.53,Andhra Pradesh
+B0913,Cotton,1198,58.04,Kerala
+B0914,Sugarcane,1410,27.49,Karnataka
+B0915,Millets,241,48.59,Karnataka
+B0916,Cotton,779,32.68,Punjab
+B0917,Maize,263,31.4,Kerala
+B0918,Pulses,623,20.58,Telangana
+B0919,Wheat,1401,26.52,Telangana
+B0920,Cotton,1006,35.46,Maharashtra
+B0921,Maize,430,25.84,Maharashtra
+B0922,Wheat,722,69.29,Karnataka
+B0923,Millets,847,35.43,Gujarat
+B0924,Barley,288,26.52,Karnataka
+B0925,Wheat,749,29.95,Maharashtra
+B0926,Barley,1155,49.39,Kerala
+B0927,Cotton,1436,23.2,Maharashtra
+B0928,Maize,554,63.12,Karnataka
+B0929,Pulses,251,68.07,Andhra Pradesh
+B0930,Cotton,969,32.34,Karnataka
+B0931,Barley,86,42.5,Andhra Pradesh
+B0932,Sugarcane,693,21.11,Andhra Pradesh
+B0933,Wheat,1475,52.04,Karnataka
+B0934,Cotton,814,40.7,Gujarat
+B0935,Barley,755,33.5,Gujarat
+B0936,Millets,1249,30.34,Tamil Nadu
+B0937,Wheat,594,52.7,Maharashtra
+B0938,Millets,1274,40.81,Gujarat
+B0939,Barley,589,28.98,Telangana
+B0940,Maize,1066,54.46,Karnataka
+B0941,Rice,443,48.25,Andhra Pradesh
+B0942,Millets,882,62.93,Karnataka
+B0943,Cotton,1115,25.87,Maharashtra
+B0944,Pulses,646,59.28,Kerala
+B0945,Cotton,442,53.68,Gujarat
+B0946,Wheat,749,25.75,Gujarat
+B0947,Maize,490,54.74,Gujarat
+B0948,Barley,967,42.08,Andhra Pradesh
+B0949,Sugarcane,369,67.25,Telangana
+B0950,Pulses,602,27.08,Punjab
+B0951,Maize,1288,52.14,Telangana
+B0952,Millets,1144,39.1,Gujarat
+B0953,Millets,617,67.84,Telangana
+B0954,Cotton,968,36.5,Kerala
+B0955,Sugarcane,285,68.11,Gujarat
+B0956,Maize,1354,65.07,Tamil Nadu
+B0957,Rice,1036,33.52,Andhra Pradesh
+B0958,Pulses,1235,60.18,Kerala
+B0959,Wheat,1264,69.78,Punjab
+B0960,Maize,1082,32.63,Andhra Pradesh
+B0961,Maize,109,41.84,Punjab
+B0962,Rice,942,46.01,Gujarat
+B0963,Cotton,274,34.75,Kerala
+B0964,Barley,749,20.76,Gujarat
+B0965,Barley,631,31.01,Punjab
+B0966,Pulses,1360,34.1,Punjab
+B0967,Pulses,1043,42.18,Kerala
+B0968,Wheat,218,28.56,Gujarat
+B0969,Maize,1135,63.66,Tamil Nadu
+B0970,Sugarcane,1422,55.25,Andhra Pradesh
+B0971,Maize,63,24.26,Kerala
+B0972,Barley,213,52.5,Tamil Nadu
+B0973,Wheat,1493,52.68,Karnataka
+B0974,Maize,806,67.81,Gujarat
+B0975,Rice,1101,20.15,Maharashtra
+B0976,Barley,495,32.4,Kerala
+B0977,Maize,1281,66.39,Telangana
+B0978,Maize,765,66.61,Tamil Nadu
+B0979,Barley,1025,56.03,Tamil Nadu
+B0980,Sugarcane,868,58.29,Kerala
+B0981,Barley,153,24.57,Punjab
+B0982,Rice,791,45.69,Tamil Nadu
+B0983,Rice,475,31.58,Karnataka
+B0984,Maize,1174,29.06,Tamil Nadu
+B0985,Pulses,688,60.52,Maharashtra
+B0986,Sugarcane,899,26.75,Maharashtra
+B0987,Maize,1179,43.43,Punjab
+B0988,Barley,818,66.93,Gujarat
+B0989,Maize,326,29.29,Gujarat
+B0990,Wheat,1138,68.9,Punjab
+B0991,Wheat,949,69.71,Telangana
+B0992,Pulses,237,47.78,Karnataka
+B0993,Sugarcane,1390,28.51,Maharashtra
+B0994,Cotton,1211,35.81,Punjab
+B0995,Millets,1416,41.22,Kerala
+B0996,Wheat,154,35.47,Andhra Pradesh
+B0997,Cotton,595,34.03,Andhra Pradesh
+B0998,Rice,429,68.61,Andhra Pradesh
+B0999,Wheat,159,27.67,Gujarat
+B1000,Wheat,594,56.67,Kerala
+B1001,Sugarcane,403,20.02,Tamil Nadu
+B1002,Pulses,792,49.81,Kerala
+B1003,Cotton,366,65.8,Tamil Nadu
+B1004,Barley,1339,34.4,Andhra Pradesh
+B1005,Wheat,1138,29.28,Telangana
+B1006,Wheat,382,52.58,Telangana
+B1007,Sugarcane,1206,55.63,Punjab
+B1008,Sugarcane,641,54.4,Tamil Nadu
+B1009,Pulses,832,35.97,Andhra Pradesh
+B1010,Cotton,589,32.61,Kerala
+B1011,Rice,784,67.8,Telangana
+B1012,Barley,670,66.16,Tamil Nadu
+B1013,Pulses,668,42.87,Punjab
+B1014,Millets,1442,62.31,Kerala
+B1015,Rice,958,42.62,Andhra Pradesh
+B1016,Maize,1041,41.22,Karnataka
+B1017,Wheat,148,27.84,Andhra Pradesh
+B1018,Cotton,366,41.32,Gujarat
+B1019,Pulses,172,46.87,Andhra Pradesh
+B1020,Wheat,1393,21.13,Punjab
+B1021,Cotton,848,42.21,Kerala
+B1022,Cotton,506,59.07,Punjab
+B1023,Cotton,571,54.0,Kerala
+B1024,Wheat,569,51.76,Maharashtra
+B1025,Pulses,966,65.48,Maharashtra
+B1026,Barley,766,20.9,Kerala
+B1027,Sugarcane,364,47.85,Kerala
+B1028,Wheat,758,59.37,Karnataka
+B1029,Millets,759,47.07,Karnataka
+B1030,Cotton,1093,36.19,Andhra Pradesh
+B1031,Pulses,609,26.81,Punjab
+B1032,Barley,1018,64.38,Gujarat
+B1033,Maize,1203,43.54,Punjab
+B1034,Millets,1366,63.91,Telangana
+B1035,Rice,1205,49.29,Punjab
+B1036,Millets,405,53.71,Gujarat
+B1037,Cotton,1127,60.21,Karnataka
+B1038,Maize,939,52.96,Andhra Pradesh
+B1039,Sugarcane,842,39.9,Gujarat
+B1040,Barley,1460,45.68,Punjab
+B1041,Barley,314,60.15,Tamil Nadu
+B1042,Cotton,1031,38.68,Maharashtra
+B1043,Millets,1288,39.41,Gujarat
+B1044,Millets,851,24.78,Telangana
+B1045,Barley,92,65.73,Andhra Pradesh
+B1046,Maize,911,24.55,Gujarat
+B1047,Cotton,1351,52.41,Kerala
+B1048,Wheat,1203,40.66,Punjab
+B1049,Pulses,399,40.28,Tamil Nadu
+B1050,Maize,1179,53.98,Maharashtra
+B1051,Pulses,961,23.35,Tamil Nadu
+B1052,Wheat,50,49.69,Andhra Pradesh
+B1053,Wheat,633,58.6,Punjab
+B1054,Pulses,481,61.41,Karnataka
+B1055,Maize,1379,28.53,Maharashtra
+B1056,Pulses,102,64.87,Punjab
+B1057,Pulses,989,52.81,Tamil Nadu
+B1058,Rice,569,64.09,Karnataka
+B1059,Maize,1403,44.26,Telangana
+B1060,Millets,1398,47.1,Andhra Pradesh
+B1061,Millets,1187,65.95,Andhra Pradesh
+B1062,Rice,196,65.0,Maharashtra
+B1063,Cotton,1239,42.41,Tamil Nadu
+B1064,Barley,1452,33.72,Telangana
+B1065,Millets,1212,39.66,Kerala
+B1066,Pulses,678,39.39,Maharashtra
+B1067,Cotton,348,34.34,Punjab
+B1068,Millets,1349,33.43,Kerala
+B1069,Maize,838,63.05,Maharashtra
+B1070,Pulses,899,23.49,Tamil Nadu
+B1071,Barley,227,53.88,Telangana
+B1072,Cotton,891,28.64,Tamil Nadu
+B1073,Millets,1427,37.23,Andhra Pradesh
+B1074,Millets,1227,23.08,Kerala
+B1075,Sugarcane,1274,33.5,Karnataka
+B1076,Millets,927,58.42,Gujarat
+B1077,Wheat,1188,64.25,Punjab
+B1078,Pulses,808,31.08,Andhra Pradesh
+B1079,Barley,1141,43.18,Andhra Pradesh
+B1080,Wheat,494,43.52,Kerala
+B1081,Rice,1399,63.68,Punjab
+B1082,Cotton,757,58.14,Maharashtra
+B1083,Millets,651,45.65,Andhra Pradesh
+B1084,Rice,1432,53.54,Gujarat
+B1085,Barley,194,62.37,Telangana
+B1086,Pulses,324,20.48,Andhra Pradesh
+B1087,Wheat,558,40.14,Telangana
+B1088,Wheat,1252,65.36,Tamil Nadu
+B1089,Cotton,802,57.02,Punjab
+B1090,Pulses,526,47.14,Maharashtra
+B1091,Millets,1487,46.48,Telangana
+B1092,Sugarcane,1226,37.39,Andhra Pradesh
+B1093,Sugarcane,1177,46.03,Maharashtra
+B1094,Cotton,1148,52.77,Gujarat
+B1095,Pulses,1201,40.92,Maharashtra
+B1096,Cotton,715,55.71,Telangana
+B1097,Pulses,617,63.06,Punjab
+B1098,Barley,1418,27.73,Telangana
+B1099,Barley,580,42.58,Karnataka
+B1100,Rice,208,40.4,Karnataka
+B1101,Millets,1499,54.37,Maharashtra
+B1102,Cotton,730,32.49,Kerala
+B1103,Millets,72,52.01,Punjab
+B1104,Pulses,1120,63.87,Kerala
+B1105,Sugarcane,574,40.91,Karnataka
+B1106,Millets,778,65.55,Andhra Pradesh
+B1107,Pulses,193,69.66,Tamil Nadu
+B1108,Barley,717,25.3,Maharashtra
+B1109,Pulses,1492,31.65,Tamil Nadu
+B1110,Cotton,730,67.52,Karnataka
+B1111,Rice,1022,67.92,Telangana
+B1112,Rice,848,24.89,Gujarat
+B1113,Rice,134,20.75,Maharashtra
+B1114,Rice,465,28.06,Karnataka
+B1115,Barley,743,69.8,Punjab
+B1116,Maize,531,29.0,Andhra Pradesh
+B1117,Millets,505,45.13,Gujarat
+B1118,Cotton,876,62.42,Maharashtra
+B1119,Wheat,346,21.02,Maharashtra
+B1120,Cotton,1185,50.22,Punjab
+B1121,Maize,1303,33.85,Kerala
+B1122,Rice,1169,63.12,Telangana
+B1123,Maize,999,34.17,Maharashtra
+B1124,Sugarcane,729,54.34,Telangana
+B1125,Sugarcane,427,53.71,Karnataka
+B1126,Millets,1229,31.07,Andhra Pradesh
+B1127,Barley,470,21.74,Gujarat
+B1128,Cotton,154,40.46,Gujarat
+B1129,Cotton,379,34.46,Andhra Pradesh
+B1130,Wheat,488,60.45,Maharashtra
+B1131,Barley,1205,60.02,Maharashtra
+B1132,Wheat,431,42.85,Karnataka
+B1133,Sugarcane,187,50.33,Kerala
+B1134,Rice,992,50.21,Kerala
+B1135,Maize,892,61.36,Kerala
+B1136,Wheat,319,41.25,Telangana
+B1137,Pulses,445,33.77,Kerala
+B1138,Wheat,962,33.25,Andhra Pradesh
+B1139,Rice,513,46.81,Gujarat
+B1140,Rice,499,42.46,Gujarat
+B1141,Cotton,1404,42.01,Telangana
+B1142,Maize,1326,24.56,Karnataka
+B1143,Rice,1358,55.93,Andhra Pradesh
+B1144,Barley,1347,30.69,Gujarat
+B1145,Wheat,69,29.85,Andhra Pradesh
+B1146,Wheat,288,40.64,Gujarat
+B1147,Sugarcane,1343,31.39,Tamil Nadu
+B1148,Rice,467,49.19,Karnataka
+B1149,Pulses,1383,38.57,Karnataka
+B1150,Cotton,1104,42.45,Punjab
+B1151,Maize,1177,46.86,Tamil Nadu
+B1152,Pulses,235,30.18,Telangana
+B1153,Cotton,1201,27.79,Gujarat
+B1154,Wheat,1283,64.02,Punjab
+B1155,Pulses,1487,41.69,Gujarat
+B1156,Cotton,1354,40.6,Gujarat
+B1157,Wheat,302,21.78,Kerala
+B1158,Wheat,68,44.9,Kerala
+B1159,Wheat,761,47.71,Kerala
+B1160,Wheat,1209,47.94,Kerala
+B1161,Barley,272,55.35,Kerala
+B1162,Wheat,52,28.87,Tamil Nadu
+B1163,Sugarcane,1309,32.61,Karnataka
+B1164,Pulses,903,60.54,Telangana
+B1165,Cotton,277,67.36,Andhra Pradesh
+B1166,Sugarcane,962,26.8,Kerala
+B1167,Barley,548,44.88,Tamil Nadu
+B1168,Millets,570,30.71,Punjab
+B1169,Millets,751,23.0,Punjab
+B1170,Sugarcane,966,36.28,Gujarat
+B1171,Rice,1212,27.18,Telangana
+B1172,Rice,1349,55.5,Punjab
+B1173,Rice,340,46.69,Telangana
+B1174,Maize,1126,27.19,Telangana
+B1175,Rice,1183,20.46,Tamil Nadu
+B1176,Cotton,764,60.41,Andhra Pradesh
+B1177,Sugarcane,997,28.81,Kerala
+B1178,Cotton,697,50.31,Telangana
+B1179,Pulses,1077,36.85,Tamil Nadu
+B1180,Rice,733,49.27,Gujarat
+B1181,Barley,919,35.78,Karnataka
+B1182,Maize,1120,24.35,Gujarat
+B1183,Pulses,143,31.15,Tamil Nadu
+B1184,Barley,989,29.4,Tamil Nadu
+B1185,Maize,609,41.4,Tamil Nadu
+B1186,Millets,262,52.91,Telangana
+B1187,Pulses,485,33.19,Tamil Nadu
+B1188,Millets,901,20.6,Karnataka
+B1189,Sugarcane,557,45.95,Telangana
+B1190,Cotton,885,50.29,Gujarat
+B1191,Wheat,700,68.14,Karnataka
+B1192,Cotton,254,49.47,Punjab
+B1193,Rice,430,43.56,Maharashtra
+B1194,Millets,1146,48.67,Gujarat
+B1195,Barley,1149,66.4,Tamil Nadu
+B1196,Wheat,126,61.42,Kerala
+B1197,Maize,865,36.15,Kerala
+B1198,Millets,817,31.86,Telangana
+B1199,Sugarcane,459,33.13,Kerala
+B1200,Sugarcane,155,45.22,Gujarat
+B1201,Millets,600,57.2,Telangana
+B1202,Millets,875,45.16,Gujarat
+B1203,Millets,1348,23.39,Tamil Nadu
+B1204,Maize,137,56.18,Andhra Pradesh
+B1205,Rice,930,60.3,Andhra Pradesh
+B1206,Maize,1150,34.47,Karnataka
+B1207,Pulses,1150,53.21,Tamil Nadu
+B1208,Barley,589,41.33,Kerala
+B1209,Millets,294,64.46,Tamil Nadu
+B1210,Barley,627,62.26,Maharashtra
+B1211,Rice,1455,46.27,Andhra Pradesh
+B1212,Wheat,1031,54.58,Kerala
+B1213,Maize,766,64.17,Gujarat
+B1214,Rice,191,44.79,Gujarat
+B1215,Barley,942,35.66,Andhra Pradesh
+B1216,Wheat,1441,57.68,Tamil Nadu
+B1217,Maize,1157,31.0,Kerala
+B1218,Sugarcane,1216,39.43,Karnataka
+B1219,Maize,401,63.29,Gujarat
+B1220,Cotton,594,56.22,Tamil Nadu
+B1221,Maize,962,40.19,Karnataka
+B1222,Cotton,201,30.74,Punjab
+B1223,Wheat,1231,37.8,Kerala
+B1224,Maize,702,34.21,Andhra Pradesh
+B1225,Wheat,1007,28.8,Punjab
+B1226,Wheat,812,57.17,Maharashtra
+B1227,Barley,1376,32.6,Punjab
+B1228,Rice,673,42.71,Telangana
+B1229,Wheat,705,39.29,Andhra Pradesh
+B1230,Wheat,499,69.1,Karnataka
+B1231,Barley,770,39.55,Tamil Nadu
+B1232,Barley,1297,24.0,Punjab
+B1233,Maize,92,24.49,Gujarat
+B1234,Barley,313,49.54,Kerala
+B1235,Maize,1076,49.97,Punjab
+B1236,Sugarcane,1341,40.94,Andhra Pradesh
+B1237,Barley,645,41.59,Gujarat
+B1238,Rice,1089,22.7,Gujarat
+B1239,Wheat,1407,45.83,Maharashtra
+B1240,Rice,1132,45.24,Kerala
+B1241,Cotton,1062,27.48,Punjab
+B1242,Millets,226,25.19,Karnataka
+B1243,Barley,112,26.18,Kerala
+B1244,Wheat,1007,25.05,Punjab
+B1245,Rice,1052,50.49,Kerala
+B1246,Barley,610,29.82,Tamil Nadu
+B1247,Barley,1380,32.57,Telangana
+B1248,Millets,1319,28.68,Punjab
+B1249,Sugarcane,1362,67.89,Gujarat
+B1250,Sugarcane,1004,62.73,Karnataka
+B1251,Wheat,1405,31.52,Punjab
+B1252,Cotton,899,36.38,Punjab
+B1253,Sugarcane,1328,30.49,Tamil Nadu
+B1254,Millets,653,44.59,Gujarat
+B1255,Sugarcane,655,20.98,Telangana
+B1256,Cotton,879,53.57,Tamil Nadu
+B1257,Rice,1272,46.16,Telangana
+B1258,Sugarcane,1344,64.93,Telangana
+B1259,Millets,795,28.22,Telangana
+B1260,Maize,607,60.21,Tamil Nadu
+B1261,Millets,113,59.6,Kerala
+B1262,Pulses,1303,26.36,Punjab
+B1263,Pulses,991,39.93,Telangana
+B1264,Sugarcane,298,28.51,Kerala
+B1265,Rice,1319,32.74,Punjab
+B1266,Barley,989,33.16,Gujarat
+B1267,Rice,206,47.81,Punjab
+B1268,Millets,784,40.57,Gujarat
+B1269,Wheat,1034,67.39,Karnataka
+B1270,Maize,1161,26.32,Maharashtra
+B1271,Rice,1386,68.68,Kerala
+B1272,Cotton,1139,31.53,Punjab
+B1273,Millets,711,58.64,Gujarat
+B1274,Maize,1093,36.95,Maharashtra
+B1275,Pulses,82,27.15,Telangana
+B1276,Millets,607,62.89,Maharashtra
+B1277,Maize,122,35.44,Maharashtra
+B1278,Cotton,874,52.94,Telangana
+B1279,Sugarcane,1416,48.32,Kerala
+B1280,Cotton,1206,43.59,Punjab
+B1281,Cotton,1128,44.79,Telangana
+B1282,Sugarcane,110,56.61,Karnataka
+B1283,Sugarcane,321,24.39,Andhra Pradesh
+B1284,Sugarcane,295,53.41,Punjab
+B1285,Sugarcane,1249,64.79,Tamil Nadu
+B1286,Sugarcane,677,22.89,Telangana
+B1287,Cotton,1390,27.03,Telangana
+B1288,Wheat,754,55.83,Maharashtra
+B1289,Wheat,711,41.86,Karnataka
+B1290,Millets,1204,40.18,Gujarat
+B1291,Rice,1175,26.85,Gujarat
+B1292,Wheat,359,45.34,Maharashtra
+B1293,Pulses,1365,26.33,Kerala
+B1294,Wheat,544,43.83,Punjab
+B1295,Cotton,1434,58.18,Telangana
+B1296,Sugarcane,387,32.91,Punjab
+B1297,Millets,628,44.04,Punjab
+B1298,Sugarcane,59,69.6,Telangana
+B1299,Barley,98,54.33,Maharashtra
+B1300,Barley,672,62.07,Punjab
+B1301,Barley,1394,40.74,Telangana
+B1302,Cotton,780,58.39,Kerala
+B1303,Pulses,844,22.03,Punjab
+B1304,Wheat,1020,26.15,Andhra Pradesh
+B1305,Cotton,182,30.15,Tamil Nadu
+B1306,Rice,132,40.1,Tamil Nadu
+B1307,Millets,106,62.29,Tamil Nadu
+B1308,Sugarcane,425,37.31,Andhra Pradesh
+B1309,Barley,398,52.73,Telangana
+B1310,Maize,320,55.47,Maharashtra
+B1311,Rice,160,49.31,Gujarat
+B1312,Barley,918,37.86,Karnataka
+B1313,Pulses,936,48.85,Telangana
+B1314,Rice,125,37.11,Andhra Pradesh
+B1315,Cotton,1231,24.19,Punjab
+B1316,Wheat,378,69.64,Kerala
+B1317,Sugarcane,171,26.36,Andhra Pradesh
+B1318,Millets,90,23.62,Punjab
+B1319,Pulses,1240,63.93,Gujarat
+B1320,Pulses,971,35.09,Tamil Nadu
+B1321,Maize,691,52.51,Telangana
+B1322,Rice,1096,36.45,Gujarat
+B1323,Maize,328,39.57,Tamil Nadu
+B1324,Wheat,812,33.11,Karnataka
+B1325,Barley,518,37.15,Punjab
+B1326,Wheat,1473,40.54,Punjab
+B1327,Barley,58,56.02,Kerala
+B1328,Maize,62,45.58,Tamil Nadu
+B1329,Sugarcane,973,67.18,Karnataka
+B1330,Wheat,972,22.09,Punjab
+B1331,Maize,1125,45.15,Andhra Pradesh
+B1332,Rice,1282,49.21,Tamil Nadu
+B1333,Maize,1475,66.01,Tamil Nadu
+B1334,Maize,1264,22.46,Maharashtra
+B1335,Cotton,1124,48.67,Kerala
+B1336,Wheat,1466,62.68,Kerala
+B1337,Millets,702,32.1,Gujarat
+B1338,Sugarcane,670,63.81,Andhra Pradesh
+B1339,Sugarcane,1373,20.95,Maharashtra
+B1340,Cotton,245,56.62,Gujarat
+B1341,Barley,466,66.66,Karnataka
+B1342,Pulses,713,52.86,Gujarat
+B1343,Barley,1493,41.95,Karnataka
+B1344,Sugarcane,1429,22.24,Andhra Pradesh
+B1345,Maize,197,66.01,Punjab
+B1346,Cotton,1050,43.51,Kerala
+B1347,Rice,1438,21.45,Punjab
+B1348,Wheat,413,54.49,Karnataka
+B1349,Wheat,451,44.09,Andhra Pradesh
+B1350,Millets,655,26.22,Punjab
+B1351,Wheat,278,30.71,Gujarat
+B1352,Maize,586,23.22,Karnataka
+B1353,Rice,317,48.71,Telangana
+B1354,Cotton,1478,51.1,Tamil Nadu
+B1355,Cotton,1084,45.29,Gujarat
+B1356,Wheat,1393,60.86,Kerala
+B1357,Rice,175,63.05,Punjab
+B1358,Rice,355,50.78,Gujarat
+B1359,Rice,1162,20.64,Telangana
+B1360,Sugarcane,1428,54.76,Andhra Pradesh
+B1361,Sugarcane,677,40.9,Andhra Pradesh
+B1362,Wheat,1425,48.28,Gujarat
+B1363,Rice,738,52.45,Telangana
+B1364,Pulses,1087,37.51,Punjab
+B1365,Rice,1330,65.85,Gujarat
+B1366,Cotton,1282,26.7,Tamil Nadu
+B1367,Cotton,330,53.58,Tamil Nadu
+B1368,Wheat,492,20.22,Maharashtra
+B1369,Pulses,886,66.23,Karnataka
+B1370,Rice,438,25.63,Maharashtra
+B1371,Barley,666,24.74,Punjab
+B1372,Pulses,196,36.65,Tamil Nadu
+B1373,Millets,1352,38.68,Telangana
+B1374,Wheat,570,30.72,Karnataka
+B1375,Cotton,679,49.26,Punjab
+B1376,Barley,483,42.15,Telangana
+B1377,Cotton,193,21.71,Punjab
+B1378,Sugarcane,338,35.98,Maharashtra
+B1379,Wheat,1459,60.52,Andhra Pradesh
+B1380,Wheat,63,54.49,Telangana
+B1381,Rice,306,56.24,Maharashtra
+B1382,Rice,1419,54.91,Maharashtra
+B1383,Sugarcane,1418,35.55,Maharashtra
+B1384,Barley,1473,24.98,Andhra Pradesh
+B1385,Millets,1280,33.62,Andhra Pradesh
+B1386,Maize,907,61.59,Gujarat
+B1387,Pulses,992,69.02,Andhra Pradesh
+B1388,Maize,1245,44.69,Karnataka
+B1389,Maize,513,20.49,Andhra Pradesh
+B1390,Wheat,319,27.0,Andhra Pradesh
+B1391,Pulses,1294,36.1,Andhra Pradesh
+B1392,Wheat,1225,48.93,Punjab
+B1393,Millets,672,23.75,Telangana
+B1394,Pulses,1256,67.17,Andhra Pradesh
+B1395,Cotton,1472,38.25,Karnataka
+B1396,Wheat,121,65.63,Punjab
+B1397,Wheat,1491,59.03,Maharashtra
+B1398,Wheat,1356,57.77,Telangana
+B1399,Barley,123,50.34,Tamil Nadu
+B1400,Sugarcane,404,51.34,Punjab
+B1401,Wheat,546,51.9,Andhra Pradesh
+B1402,Millets,1401,51.44,Punjab
+B1403,Rice,1037,47.69,Gujarat
+B1404,Rice,629,69.32,Gujarat
+B1405,Pulses,959,56.61,Punjab
+B1406,Cotton,422,58.85,Maharashtra
+B1407,Sugarcane,411,63.62,Maharashtra
+B1408,Barley,142,30.78,Telangana
+B1409,Pulses,1394,24.19,Gujarat
+B1410,Rice,373,44.14,Tamil Nadu
+B1411,Sugarcane,433,45.7,Kerala
+B1412,Sugarcane,624,61.46,Gujarat
+B1413,Cotton,785,42.19,Punjab
+B1414,Millets,786,48.54,Gujarat
+B1415,Sugarcane,395,46.35,Karnataka
+B1416,Wheat,1176,21.91,Kerala
+B1417,Sugarcane,1288,50.76,Maharashtra
+B1418,Cotton,1265,61.4,Kerala
+B1419,Pulses,768,27.88,Gujarat
+B1420,Cotton,830,49.72,Maharashtra
+B1421,Barley,1069,49.68,Kerala
+B1422,Cotton,1267,28.21,Maharashtra
+B1423,Rice,1453,26.17,Maharashtra
+B1424,Wheat,1476,69.0,Telangana
+B1425,Millets,713,39.69,Tamil Nadu
+B1426,Rice,649,31.37,Maharashtra
+B1427,Pulses,60,28.57,Karnataka
+B1428,Maize,236,53.38,Gujarat
+B1429,Pulses,775,50.47,Gujarat
+B1430,Wheat,1088,52.18,Karnataka
+B1431,Sugarcane,827,24.4,Andhra Pradesh
+B1432,Cotton,1370,64.68,Maharashtra
+B1433,Maize,460,39.46,Punjab
+B1434,Wheat,1005,35.67,Maharashtra
+B1435,Rice,634,43.12,Maharashtra
+B1436,Cotton,1125,39.5,Punjab
+B1437,Pulses,1101,63.18,Kerala
+B1438,Rice,626,66.46,Maharashtra
+B1439,Wheat,1090,35.17,Maharashtra
+B1440,Wheat,1424,63.2,Karnataka
+B1441,Pulses,1302,59.08,Tamil Nadu
+B1442,Maize,1038,66.54,Tamil Nadu
+B1443,Pulses,1283,32.29,Andhra Pradesh
+B1444,Sugarcane,1367,48.85,Karnataka
+B1445,Rice,792,33.73,Maharashtra
+B1446,Maize,1177,61.2,Tamil Nadu
+B1447,Cotton,253,20.27,Telangana
+B1448,Barley,1126,48.24,Telangana
+B1449,Sugarcane,1023,36.96,Telangana
+B1450,Maize,989,36.13,Maharashtra
+B1451,Barley,1448,52.25,Maharashtra
+B1452,Barley,1127,62.57,Punjab
+B1453,Rice,1349,50.46,Andhra Pradesh
+B1454,Wheat,1408,62.66,Gujarat
+B1455,Cotton,1104,33.23,Andhra Pradesh
+B1456,Pulses,1208,45.98,Andhra Pradesh
+B1457,Rice,1131,42.53,Kerala
+B1458,Sugarcane,154,20.58,Telangana
+B1459,Millets,1339,47.84,Maharashtra
+B1460,Barley,302,53.08,Telangana
+B1461,Sugarcane,344,49.6,Andhra Pradesh
+B1462,Barley,717,56.81,Maharashtra
+B1463,Wheat,1231,48.57,Karnataka
+B1464,Millets,598,23.34,Punjab
+B1465,Wheat,680,25.82,Tamil Nadu
+B1466,Cotton,1140,49.82,Tamil Nadu
+B1467,Pulses,348,33.75,Andhra Pradesh
+B1468,Cotton,150,23.98,Gujarat
+B1469,Wheat,1129,41.48,Telangana
+B1470,Wheat,381,47.72,Karnataka
+B1471,Sugarcane,885,36.44,Maharashtra
+B1472,Wheat,442,56.02,Gujarat
+B1473,Millets,923,52.19,Telangana
+B1474,Millets,430,36.64,Andhra Pradesh
+B1475,Maize,141,57.74,Telangana
+B1476,Barley,496,52.43,Andhra Pradesh
+B1477,Rice,158,51.87,Kerala
+B1478,Wheat,366,47.67,Tamil Nadu
+B1479,Cotton,1241,20.57,Gujarat
+B1480,Pulses,491,54.83,Tamil Nadu
+B1481,Barley,267,38.8,Telangana
+B1482,Barley,1295,67.13,Karnataka
+B1483,Pulses,722,60.9,Maharashtra
+B1484,Pulses,327,49.38,Andhra Pradesh
+B1485,Barley,1058,32.61,Maharashtra
+B1486,Maize,618,30.19,Tamil Nadu
+B1487,Cotton,1059,37.02,Punjab
+B1488,Maize,924,43.83,Karnataka
+B1489,Wheat,515,34.8,Karnataka
+B1490,Rice,888,45.75,Maharashtra
+B1491,Pulses,803,28.27,Tamil Nadu
+B1492,Millets,887,68.89,Punjab
+B1493,Cotton,79,25.4,Maharashtra
+B1494,Pulses,408,66.6,Telangana
+B1495,Maize,1361,65.68,Karnataka
+B1496,Sugarcane,135,46.27,Karnataka
+B1497,Wheat,1307,56.25,Telangana
+B1498,Rice,796,41.8,Tamil Nadu
+B1499,Wheat,362,51.5,Karnataka
+B1500,Sugarcane,414,37.03,Gujarat
+B1501,Rice,954,35.06,Punjab
+B1502,Sugarcane,1342,48.91,Kerala
+B1503,Wheat,747,44.91,Kerala
+B1504,Maize,180,48.98,Kerala
+B1505,Barley,852,34.33,Andhra Pradesh
+B1506,Wheat,838,38.35,Gujarat
+B1507,Wheat,400,24.19,Andhra Pradesh
+B1508,Wheat,229,22.61,Tamil Nadu
+B1509,Cotton,1236,32.67,Telangana
+B1510,Sugarcane,1169,23.71,Maharashtra
+B1511,Millets,823,25.19,Gujarat
+B1512,Sugarcane,559,60.65,Punjab
+B1513,Pulses,414,21.94,Tamil Nadu
+B1514,Sugarcane,1030,52.95,Maharashtra
+B1515,Pulses,402,33.63,Tamil Nadu
+B1516,Cotton,849,63.58,Andhra Pradesh
+B1517,Maize,1156,44.25,Kerala
+B1518,Pulses,1298,35.28,Telangana
+B1519,Wheat,461,45.88,Andhra Pradesh
+B1520,Maize,784,39.1,Telangana
+B1521,Barley,1030,48.22,Gujarat
+B1522,Cotton,167,25.73,Maharashtra
+B1523,Sugarcane,531,69.85,Tamil Nadu
+B1524,Pulses,241,41.28,Karnataka
+B1525,Millets,640,37.41,Karnataka
+B1526,Wheat,639,55.51,Telangana
+B1527,Rice,708,38.19,Kerala
+B1528,Barley,156,61.66,Kerala
+B1529,Rice,431,42.71,Telangana
+B1530,Maize,832,55.98,Andhra Pradesh
+B1531,Sugarcane,439,25.37,Karnataka
+B1532,Millets,293,62.31,Andhra Pradesh
+B1533,Rice,634,56.79,Maharashtra
+B1534,Maize,918,30.59,Karnataka
+B1535,Cotton,517,27.26,Maharashtra
+B1536,Maize,915,35.81,Tamil Nadu
+B1537,Barley,983,68.8,Andhra Pradesh
+B1538,Millets,1283,32.84,Telangana
+B1539,Millets,653,42.81,Karnataka
+B1540,Maize,1064,21.5,Andhra Pradesh
+B1541,Barley,1146,39.86,Telangana
+B1542,Maize,1382,48.57,Tamil Nadu
+B1543,Millets,909,67.66,Karnataka
+B1544,Millets,1259,45.84,Maharashtra
+B1545,Wheat,1326,60.96,Tamil Nadu
+B1546,Maize,62,47.36,Kerala
+B1547,Pulses,348,22.04,Telangana
+B1548,Maize,1149,35.75,Punjab
+B1549,Millets,1124,48.78,Karnataka
+B1550,Wheat,836,67.53,Karnataka
+B1551,Wheat,198,62.96,Gujarat
+B1552,Cotton,171,31.42,Gujarat
+B1553,Barley,1284,31.01,Tamil Nadu
+B1554,Sugarcane,1353,30.06,Karnataka
+B1555,Rice,587,66.12,Telangana
+B1556,Rice,1229,62.63,Tamil Nadu
+B1557,Maize,1311,58.74,Maharashtra
+B1558,Cotton,425,39.64,Tamil Nadu
+B1559,Maize,131,45.22,Tamil Nadu
+B1560,Rice,541,43.22,Punjab
+B1561,Barley,405,32.67,Maharashtra
+B1562,Millets,974,45.25,Kerala
+B1563,Barley,1346,21.52,Gujarat
+B1564,Barley,1117,26.59,Telangana
+B1565,Wheat,1054,64.33,Kerala
+B1566,Millets,172,57.58,Kerala
+B1567,Sugarcane,1422,41.14,Kerala
+B1568,Millets,757,45.86,Gujarat
+B1569,Cotton,379,38.5,Andhra Pradesh
+B1570,Wheat,1482,57.04,Gujarat
+B1571,Sugarcane,1040,59.21,Kerala
+B1572,Cotton,372,58.16,Andhra Pradesh
+B1573,Cotton,1184,56.13,Maharashtra
+B1574,Rice,819,30.23,Gujarat
+B1575,Wheat,1162,36.9,Telangana
+B1576,Cotton,482,43.49,Kerala
+B1577,Pulses,759,36.54,Karnataka
+B1578,Barley,843,57.75,Maharashtra
+B1579,Cotton,761,36.47,Andhra Pradesh
+B1580,Sugarcane,1172,26.91,Gujarat
+B1581,Rice,588,39.95,Telangana
+B1582,Maize,650,69.0,Tamil Nadu
+B1583,Barley,1219,31.29,Telangana
+B1584,Rice,306,50.61,Telangana
+B1585,Maize,1262,41.65,Kerala
+B1586,Wheat,1313,23.55,Kerala
+B1587,Wheat,920,44.39,Gujarat
+B1588,Cotton,948,55.11,Gujarat
+B1589,Pulses,858,45.66,Punjab
+B1590,Wheat,726,63.61,Andhra Pradesh
+B1591,Millets,320,34.45,Punjab
+B1592,Cotton,599,24.31,Gujarat
+B1593,Barley,1187,66.83,Andhra Pradesh
+B1594,Rice,1412,38.91,Kerala
+B1595,Wheat,617,48.82,Kerala
+B1596,Millets,1035,59.6,Karnataka
+B1597,Rice,408,36.22,Karnataka
+B1598,Rice,1407,55.81,Maharashtra
+B1599,Pulses,1242,26.77,Kerala
+B1600,Wheat,1412,34.56,Tamil Nadu
+B1601,Rice,847,27.24,Karnataka
+B1602,Pulses,1334,60.56,Andhra Pradesh
+B1603,Pulses,936,31.13,Telangana
+B1604,Wheat,1272,55.87,Gujarat
+B1605,Pulses,260,67.16,Gujarat
+B1606,Wheat,336,46.39,Maharashtra
+B1607,Millets,792,47.0,Karnataka
+B1608,Wheat,1096,43.05,Telangana
+B1609,Maize,1182,36.29,Telangana
+B1610,Rice,345,43.78,Karnataka
+B1611,Millets,55,50.14,Tamil Nadu
+B1612,Sugarcane,599,69.3,Tamil Nadu
+B1613,Wheat,730,66.89,Maharashtra
+B1614,Rice,844,63.11,Punjab
+B1615,Barley,252,64.46,Tamil Nadu
+B1616,Pulses,374,43.39,Maharashtra
+B1617,Cotton,874,52.87,Punjab
+B1618,Wheat,293,64.75,Punjab
+B1619,Pulses,376,39.65,Andhra Pradesh
+B1620,Pulses,1036,68.09,Punjab
+B1621,Pulses,1120,40.79,Karnataka
+B1622,Pulses,810,50.05,Punjab
+B1623,Pulses,1086,55.49,Telangana
+B1624,Wheat,956,67.53,Maharashtra
+B1625,Barley,1453,32.23,Gujarat
+B1626,Sugarcane,414,57.31,Tamil Nadu
+B1627,Maize,1415,46.04,Gujarat
+B1628,Pulses,1294,33.43,Maharashtra
+B1629,Pulses,122,58.83,Kerala
+B1630,Maize,1119,47.61,Maharashtra
+B1631,Barley,323,53.05,Tamil Nadu
+B1632,Millets,257,36.15,Kerala
+B1633,Barley,173,44.06,Kerala
+B1634,Millets,1083,50.87,Punjab
+B1635,Wheat,1402,40.25,Tamil Nadu
+B1636,Rice,1260,29.92,Kerala
+B1637,Cotton,592,68.08,Karnataka
+B1638,Cotton,109,45.57,Telangana
+B1639,Rice,948,56.7,Gujarat
+B1640,Wheat,935,40.55,Karnataka
+B1641,Cotton,831,37.76,Karnataka
+B1642,Barley,491,40.36,Tamil Nadu
+B1643,Maize,1290,40.46,Punjab
+B1644,Rice,960,47.21,Tamil Nadu
+B1645,Barley,1075,47.17,Gujarat
+B1646,Sugarcane,881,44.86,Telangana
+B1647,Wheat,1057,26.74,Maharashtra
+B1648,Rice,1429,44.8,Karnataka
+B1649,Cotton,675,28.46,Kerala
+B1650,Wheat,1238,26.31,Telangana
+B1651,Maize,1047,66.63,Karnataka
+B1652,Wheat,783,50.25,Maharashtra
+B1653,Wheat,140,52.97,Punjab
+B1654,Maize,216,40.09,Kerala
+B1655,Pulses,1008,65.45,Karnataka
+B1656,Maize,256,51.9,Andhra Pradesh
+B1657,Barley,1355,58.46,Gujarat
+B1658,Wheat,1138,38.43,Telangana
+B1659,Millets,565,68.0,Gujarat
+B1660,Maize,1230,61.02,Tamil Nadu
+B1661,Pulses,796,62.7,Karnataka
+B1662,Barley,355,28.61,Kerala
+B1663,Millets,444,33.55,Kerala
+B1664,Millets,1147,34.28,Telangana
+B1665,Rice,236,33.55,Telangana
+B1666,Maize,1410,62.77,Gujarat
+B1667,Maize,672,21.59,Kerala
+B1668,Wheat,779,23.8,Kerala
+B1669,Barley,289,33.7,Kerala
+B1670,Rice,582,29.99,Karnataka
+B1671,Sugarcane,190,31.59,Kerala
+B1672,Sugarcane,1338,59.9,Tamil Nadu
+B1673,Cotton,188,48.16,Kerala
+B1674,Maize,508,20.29,Tamil Nadu
+B1675,Maize,119,41.47,Karnataka
+B1676,Rice,434,40.39,Telangana
+B1677,Pulses,679,25.7,Punjab
+B1678,Sugarcane,247,53.81,Tamil Nadu
+B1679,Cotton,254,55.1,Karnataka
+B1680,Rice,617,56.04,Punjab
+B1681,Maize,1031,56.42,Punjab
+B1682,Sugarcane,854,20.0,Kerala
+B1683,Barley,908,67.7,Karnataka
+B1684,Cotton,931,60.71,Punjab
+B1685,Wheat,1023,65.2,Kerala
+B1686,Sugarcane,689,20.78,Gujarat
+B1687,Cotton,374,66.69,Karnataka
+B1688,Rice,491,60.49,Punjab
+B1689,Wheat,853,61.86,Telangana
+B1690,Cotton,337,24.66,Tamil Nadu
+B1691,Cotton,275,56.94,Gujarat
+B1692,Millets,1137,68.0,Telangana
+B1693,Millets,1016,53.93,Andhra Pradesh
+B1694,Millets,987,48.53,Kerala
+B1695,Maize,609,67.28,Punjab
+B1696,Pulses,763,42.15,Tamil Nadu
+B1697,Sugarcane,547,49.96,Telangana
+B1698,Maize,898,43.82,Tamil Nadu
+B1699,Barley,975,66.64,Andhra Pradesh
+B1700,Wheat,109,23.8,Maharashtra
+B1701,Pulses,1470,45.06,Kerala
+B1702,Cotton,306,54.35,Kerala
+B1703,Maize,626,59.6,Karnataka
+B1704,Millets,288,49.15,Punjab
+B1705,Pulses,87,65.45,Kerala
+B1706,Barley,74,67.1,Kerala
+B1707,Sugarcane,459,23.22,Telangana
+B1708,Barley,510,40.12,Gujarat
+B1709,Wheat,1037,21.17,Kerala
+B1710,Rice,1490,36.47,Kerala
+B1711,Maize,406,46.84,Punjab
+B1712,Millets,432,65.54,Andhra Pradesh
+B1713,Wheat,1231,62.33,Gujarat
+B1714,Rice,618,26.37,Andhra Pradesh
+B1715,Millets,1121,24.65,Punjab
+B1716,Millets,1401,49.46,Tamil Nadu
+B1717,Millets,482,46.61,Tamil Nadu
+B1718,Maize,105,33.32,Kerala
+B1719,Wheat,626,64.97,Kerala
+B1720,Millets,317,66.37,Karnataka
+B1721,Barley,118,40.13,Tamil Nadu
+B1722,Wheat,951,64.52,Telangana
+B1723,Pulses,842,39.2,Kerala
+B1724,Barley,306,56.84,Telangana
+B1725,Maize,721,43.8,Kerala
+B1726,Millets,539,26.13,Punjab
+B1727,Wheat,795,66.4,Telangana
+B1728,Cotton,98,42.7,Maharashtra
+B1729,Maize,365,56.72,Telangana
+B1730,Wheat,462,38.36,Gujarat
+B1731,Pulses,483,20.94,Tamil Nadu
+B1732,Millets,1075,25.03,Kerala
+B1733,Rice,1218,44.81,Tamil Nadu
+B1734,Millets,1439,54.5,Gujarat
+B1735,Rice,469,36.74,Gujarat
+B1736,Cotton,893,54.77,Telangana
+B1737,Maize,965,54.93,Andhra Pradesh
+B1738,Pulses,483,55.2,Andhra Pradesh
+B1739,Wheat,692,44.63,Gujarat
+B1740,Wheat,106,65.74,Andhra Pradesh
+B1741,Rice,1013,44.46,Kerala
+B1742,Pulses,1026,42.51,Karnataka
+B1743,Barley,1251,29.97,Maharashtra
+B1744,Cotton,1366,35.38,Telangana
+B1745,Rice,95,22.12,Karnataka
+B1746,Rice,1243,51.68,Andhra Pradesh
+B1747,Cotton,1344,32.43,Telangana
+B1748,Maize,466,35.21,Karnataka
+B1749,Wheat,897,58.54,Tamil Nadu
+B1750,Maize,188,36.36,Andhra Pradesh
+B1751,Pulses,296,32.11,Punjab
+B1752,Barley,1221,28.45,Karnataka
+B1753,Millets,279,58.74,Punjab
+B1754,Sugarcane,841,26.49,Kerala
+B1755,Sugarcane,686,42.69,Tamil Nadu
+B1756,Sugarcane,423,45.35,Andhra Pradesh
+B1757,Cotton,1153,54.37,Maharashtra
+B1758,Rice,787,51.66,Gujarat
+B1759,Barley,1138,60.54,Andhra Pradesh
+B1760,Maize,137,22.24,Punjab
+B1761,Millets,1161,34.82,Kerala
+B1762,Wheat,762,34.01,Maharashtra
+B1763,Sugarcane,1277,27.3,Maharashtra
+B1764,Maize,1455,34.46,Maharashtra
+B1765,Sugarcane,650,35.49,Telangana
+B1766,Barley,588,46.09,Telangana
+B1767,Sugarcane,263,53.19,Punjab
+B1768,Wheat,123,39.06,Gujarat
+B1769,Millets,110,55.97,Maharashtra
+B1770,Pulses,747,36.81,Gujarat
+B1771,Pulses,1292,34.51,Tamil Nadu
+B1772,Barley,61,47.06,Maharashtra
+B1773,Pulses,863,21.19,Karnataka
+B1774,Cotton,1488,23.99,Maharashtra
+B1775,Rice,81,40.9,Punjab
+B1776,Cotton,1233,67.15,Telangana
+B1777,Maize,1050,56.08,Telangana
+B1778,Cotton,286,24.41,Karnataka
+B1779,Maize,1254,62.32,Karnataka
+B1780,Maize,607,56.62,Andhra Pradesh
+B1781,Rice,1414,50.55,Tamil Nadu
+B1782,Wheat,1153,61.01,Tamil Nadu
+B1783,Millets,696,40.21,Punjab
+B1784,Barley,1036,31.08,Punjab
+B1785,Rice,869,45.6,Punjab
+B1786,Barley,522,47.44,Punjab
+B1787,Pulses,161,46.92,Punjab
+B1788,Pulses,1365,48.25,Punjab
+B1789,Cotton,432,67.44,Tamil Nadu
+B1790,Maize,66,65.11,Kerala
+B1791,Sugarcane,542,63.79,Telangana
+B1792,Sugarcane,1404,60.07,Tamil Nadu
+B1793,Barley,975,67.17,Punjab
+B1794,Maize,1479,24.92,Andhra Pradesh
+B1795,Barley,166,33.26,Andhra Pradesh
+B1796,Rice,929,44.75,Tamil Nadu
+B1797,Wheat,164,62.33,Karnataka
+B1798,Millets,863,45.26,Andhra Pradesh
+B1799,Rice,693,57.4,Gujarat
+B1800,Maize,1409,26.95,Karnataka
+B1801,Maize,385,32.62,Gujarat
+B1802,Wheat,971,56.59,Telangana
+B1803,Barley,196,28.24,Kerala
+B1804,Cotton,171,37.57,Andhra Pradesh
+B1805,Cotton,130,33.24,Karnataka
+B1806,Wheat,734,37.49,Punjab
+B1807,Cotton,711,55.42,Gujarat
+B1808,Sugarcane,424,38.39,Tamil Nadu
+B1809,Cotton,112,47.76,Gujarat
+B1810,Cotton,553,25.0,Gujarat
+B1811,Cotton,717,60.25,Telangana
+B1812,Sugarcane,498,38.49,Maharashtra
+B1813,Barley,917,52.43,Maharashtra
+B1814,Cotton,1494,56.27,Tamil Nadu
+B1815,Pulses,1395,30.48,Telangana
+B1816,Sugarcane,729,64.23,Telangana
+B1817,Wheat,1239,50.81,Punjab
+B1818,Rice,510,41.44,Telangana
+B1819,Wheat,508,29.12,Telangana
+B1820,Rice,1262,67.12,Maharashtra
+B1821,Millets,513,57.75,Karnataka
+B1822,Wheat,961,30.4,Telangana
+B1823,Pulses,428,36.89,Karnataka
+B1824,Rice,1075,60.48,Gujarat
+B1825,Rice,413,54.78,Gujarat
+B1826,Maize,121,58.29,Telangana
+B1827,Rice,687,42.06,Andhra Pradesh
+B1828,Rice,1243,55.82,Kerala
+B1829,Maize,1278,39.32,Andhra Pradesh
+B1830,Cotton,386,30.56,Gujarat
+B1831,Cotton,244,51.63,Kerala
+B1832,Maize,1061,68.8,Andhra Pradesh
+B1833,Sugarcane,702,35.53,Telangana
+B1834,Millets,1348,43.05,Karnataka
+B1835,Rice,56,53.7,Kerala
+B1836,Rice,954,47.08,Maharashtra
+B1837,Maize,1028,62.17,Tamil Nadu
+B1838,Maize,615,58.09,Kerala
+B1839,Sugarcane,665,22.91,Kerala
+B1840,Pulses,622,69.92,Maharashtra
+B1841,Cotton,648,57.62,Telangana
+B1842,Wheat,819,63.2,Andhra Pradesh
+B1843,Pulses,1251,52.56,Andhra Pradesh
+B1844,Barley,291,62.81,Gujarat
+B1845,Cotton,1276,25.62,Karnataka
+B1846,Rice,1153,37.39,Telangana
+B1847,Barley,1490,63.82,Maharashtra
+B1848,Pulses,815,30.08,Telangana
+B1849,Maize,433,23.91,Telangana
+B1850,Sugarcane,440,59.41,Andhra Pradesh
+B1851,Cotton,945,61.77,Maharashtra
+B1852,Sugarcane,737,28.13,Punjab
+B1853,Barley,1199,62.72,Tamil Nadu
+B1854,Cotton,96,54.34,Kerala
+B1855,Millets,668,46.0,Andhra Pradesh
+B1856,Millets,513,61.51,Maharashtra
+B1857,Pulses,172,40.96,Karnataka
+B1858,Rice,183,29.7,Kerala
+B1859,Millets,890,34.24,Kerala
+B1860,Millets,898,45.26,Punjab
+B1861,Wheat,656,46.57,Punjab
+B1862,Sugarcane,72,60.28,Andhra Pradesh
+B1863,Sugarcane,615,59.57,Gujarat
+B1864,Millets,815,49.07,Karnataka
+B1865,Wheat,1014,59.04,Andhra Pradesh
+B1866,Sugarcane,284,29.59,Telangana
+B1867,Sugarcane,1045,22.5,Gujarat
+B1868,Cotton,1132,63.68,Maharashtra
+B1869,Cotton,1237,23.78,Punjab
+B1870,Wheat,875,32.33,Karnataka
+B1871,Barley,265,54.77,Kerala
+B1872,Rice,1256,40.47,Andhra Pradesh
+B1873,Pulses,706,63.82,Punjab
+B1874,Millets,984,34.9,Kerala
+B1875,Millets,1163,20.59,Karnataka
+B1876,Pulses,360,35.03,Punjab
+B1877,Millets,606,48.9,Punjab
+B1878,Millets,1021,38.8,Kerala
+B1879,Barley,306,46.74,Andhra Pradesh
+B1880,Sugarcane,582,63.83,Gujarat
+B1881,Rice,101,65.62,Andhra Pradesh
+B1882,Millets,1411,33.3,Tamil Nadu
+B1883,Wheat,1244,43.11,Punjab
+B1884,Barley,1140,47.46,Kerala
+B1885,Millets,349,67.46,Tamil Nadu
+B1886,Wheat,721,69.93,Gujarat
+B1887,Cotton,827,31.77,Tamil Nadu
+B1888,Sugarcane,881,56.35,Kerala
+B1889,Maize,281,38.9,Karnataka
+B1890,Millets,1024,20.41,Telangana
+B1891,Wheat,1141,20.46,Gujarat
+B1892,Barley,77,43.03,Andhra Pradesh
+B1893,Sugarcane,1124,44.42,Maharashtra
+B1894,Rice,1333,21.13,Gujarat
+B1895,Barley,640,54.35,Tamil Nadu
+B1896,Cotton,834,34.7,Karnataka
+B1897,Pulses,669,47.99,Kerala
+B1898,Millets,635,35.05,Karnataka
+B1899,Rice,1051,28.36,Karnataka
+B1900,Wheat,233,40.36,Kerala
+B1901,Millets,1096,31.61,Maharashtra
+B1902,Wheat,178,46.74,Kerala
+B1903,Rice,340,29.94,Maharashtra
+B1904,Wheat,550,45.42,Kerala
+B1905,Barley,235,27.87,Tamil Nadu
+B1906,Sugarcane,528,53.55,Maharashtra
+B1907,Wheat,541,57.7,Tamil Nadu
+B1908,Cotton,562,25.52,Gujarat
+B1909,Sugarcane,1140,43.39,Maharashtra
+B1910,Barley,516,23.54,Maharashtra
+B1911,Millets,334,49.91,Kerala
+B1912,Maize,650,33.22,Maharashtra
+B1913,Millets,1490,46.38,Tamil Nadu
+B1914,Wheat,1173,45.87,Punjab
+B1915,Wheat,238,66.22,Gujarat
+B1916,Cotton,1038,47.45,Punjab
+B1917,Barley,939,49.15,Kerala
+B1918,Cotton,437,40.08,Andhra Pradesh
+B1919,Pulses,290,67.45,Gujarat
+B1920,Barley,466,58.86,Punjab
+B1921,Rice,225,34.27,Gujarat
+B1922,Rice,436,62.21,Punjab
+B1923,Rice,902,41.62,Tamil Nadu
+B1924,Cotton,1306,61.43,Punjab
+B1925,Rice,712,61.14,Gujarat
+B1926,Barley,501,29.44,Andhra Pradesh
+B1927,Rice,326,55.06,Karnataka
+B1928,Maize,1302,34.53,Kerala
+B1929,Rice,1244,34.87,Karnataka
+B1930,Wheat,262,34.82,Kerala
+B1931,Pulses,1355,56.28,Gujarat
+B1932,Cotton,90,31.49,Kerala
+B1933,Sugarcane,1195,20.05,Punjab
+B1934,Pulses,1300,55.76,Tamil Nadu
+B1935,Maize,343,28.56,Andhra Pradesh
+B1936,Cotton,649,25.22,Kerala
+B1937,Barley,1340,31.88,Andhra Pradesh
+B1938,Millets,590,39.0,Kerala
+B1939,Cotton,500,43.8,Andhra Pradesh
+B1940,Wheat,1134,22.23,Karnataka
+B1941,Barley,1220,68.53,Tamil Nadu
+B1942,Pulses,839,55.8,Kerala
+B1943,Pulses,383,36.16,Telangana
+B1944,Rice,940,35.93,Andhra Pradesh
+B1945,Barley,1215,42.43,Andhra Pradesh
+B1946,Millets,93,51.31,Punjab
+B1947,Wheat,193,27.32,Telangana
+B1948,Rice,382,29.45,Tamil Nadu
+B1949,Rice,1047,62.97,Andhra Pradesh
+B1950,Millets,1469,32.81,Tamil Nadu
+B1951,Cotton,104,39.01,Andhra Pradesh
+B1952,Pulses,1380,63.56,Gujarat
+B1953,Rice,919,53.16,Maharashtra
+B1954,Maize,1496,37.09,Gujarat
+B1955,Maize,1490,54.18,Andhra Pradesh
+B1956,Pulses,846,20.98,Maharashtra
+B1957,Maize,374,56.78,Kerala
+B1958,Millets,129,44.35,Tamil Nadu
+B1959,Cotton,1104,60.66,Andhra Pradesh
+B1960,Wheat,1034,67.73,Punjab
+B1961,Sugarcane,1185,66.29,Karnataka
+B1962,Rice,607,65.46,Punjab
+B1963,Sugarcane,914,45.61,Karnataka
+B1964,Wheat,766,38.01,Telangana
+B1965,Wheat,521,43.25,Karnataka
+B1966,Millets,123,54.49,Maharashtra
+B1967,Cotton,638,64.2,Karnataka
+B1968,Maize,1460,30.35,Karnataka
+B1969,Maize,613,65.91,Karnataka
+B1970,Millets,1485,60.76,Andhra Pradesh
+B1971,Wheat,516,68.94,Telangana
+B1972,Cotton,648,64.01,Tamil Nadu
+B1973,Cotton,1041,34.0,Telangana
+B1974,Pulses,786,25.3,Punjab
+B1975,Barley,1043,25.61,Maharashtra
+B1976,Rice,297,34.56,Andhra Pradesh
+B1977,Millets,1193,50.71,Kerala
+B1978,Barley,116,60.22,Andhra Pradesh
+B1979,Millets,622,64.96,Gujarat
+B1980,Maize,1400,51.19,Karnataka
+B1981,Wheat,752,20.28,Punjab
+B1982,Millets,519,29.32,Karnataka
+B1983,Millets,542,24.99,Maharashtra
+B1984,Pulses,712,38.17,Kerala
+B1985,Sugarcane,335,45.07,Punjab
+B1986,Maize,361,22.17,Gujarat
+B1987,Rice,358,37.42,Andhra Pradesh
+B1988,Cotton,824,28.96,Kerala
+B1989,Wheat,1170,52.35,Tamil Nadu
+B1990,Maize,1014,43.21,Telangana
+B1991,Sugarcane,1186,44.77,Andhra Pradesh
+B1992,Millets,505,41.38,Kerala
+B1993,Rice,181,67.8,Tamil Nadu
+B1994,Millets,979,30.74,Tamil Nadu
+B1995,Rice,1014,45.83,Gujarat
+B1996,Pulses,978,56.8,Gujarat
+B1997,Millets,170,47.84,Telangana
+B1998,Maize,1270,66.45,Tamil Nadu
+B1999,Sugarcane,683,38.9,Punjab
+B2000,Rice,946,43.18,Maharashtra
